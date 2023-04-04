@@ -1,46 +1,43 @@
 import React, { useState, useEffect } from "react";
 import { Question } from "./Question";
-import Button from 'react-bootstrap/Button';
-import './quiz.css';
 
 function Quiz(props){
     const [currentQuestionNum, setCurrentQuestionNum] = useState(0);
     const [userAnswers, setUserAnswers] = useState([]);
     const [selectedAnswer, setSelectedAnswer] = useState("");
+    const [buttonTitle, setButtonTitle] = useState("");
 
-    
     useEffect(() => {
        setUserAnswers(new Array(props.questions.length).fill(""));
+       setButtonTitle("Next")
     }, [])
 
-    function changeQuestionNum(direction) {
-        let success = false
-        if (direction == "prev"){
-            if (currentQuestionNum !== 0){
-                setCurrentQuestionNum(currentQuestionNum - 1);
-                success = true;
-            }
-        } else if (selectedAnswer != "" && direction == "next"){
-            if (currentQuestionNum !== props.questions.length - 1 ){
+    function changeQuestionNum() {
+        if (currentQuestionNum !== props.questions.length - 1 ){
+            if (selectedAnswer !== ""){
                 setCurrentQuestionNum(currentQuestionNum + 1);
-                success = true;
+                if (currentQuestionNum + 1 == props.questions.length-1){
+                    setButtonTitle("Finish Quiz")
+                }
+                //save the user's answer
+                let temp = userAnswers;
+                temp[currentQuestionNum] = selectedAnswer;
+                setUserAnswers(temp);
+                setSelectedAnswer("")
             }
-        }
-        if (success){
+        } else {
             let temp = userAnswers;
             temp[currentQuestionNum] = selectedAnswer;
             setUserAnswers(temp);
-            setSelectedAnswer("")
-            console.log(selectedAnswer)    
+            //props.onEndOfQuiz(userAnswers);
+            
+            //store the user's answers in local storage
+            localStorage.setItem("userAnswers", JSON.stringify(userAnswers))
+            //switch to the post reflection page
+            props.nextPageFunction();
+
         }
-        console.log(userAnswers)
-        
-        if (direction == "next" && currentQuestionNum == props.questions.length - 1 ){
-            let temp = userAnswers;
-            temp[currentQuestionNum] = selectedAnswer;
-            setUserAnswers(temp);
-            props.onEndOfQuiz(userAnswers);
-        }
+
         
     }
 
@@ -57,8 +54,7 @@ function Quiz(props){
                 
             />
             <div className="buttons">
-                <Button variant="primary" onClick={()=>changeQuestionNum("prev")}>Previous</Button>{' '}
-                <Button variant="primary" onClick={()=>changeQuestionNum("next")}>Next</Button>{' '}
+                <button variant="primary" onClick={()=>changeQuestionNum("next")}>{buttonTitle}</button>{' '}
             </div>
         </div>
     )

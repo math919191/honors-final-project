@@ -2,10 +2,23 @@ import React, { useState, useEffect } from "react";
 
 export function SingleResult(props){
 
+    function getConditionClassName(){
+        if (props.userResponse == props.correctResponse){
+            return "correct";
+        } else {
+            return "incorrect"
+        }
+    }
+
+    function getCorrectNess(){
+        return (props.userResponse == props.correctResponse ? 'correct' : 'incorrect');
+    }
+
     return (
         <div className="card result w-50">
-            <div className="card-header">
-                Question: {props.questionNum + 1} 
+
+            <div className={"card-header " + getCorrectNess()}>
+                Question: { (props.questionNum + 1) + " -- " + getCorrectNess() } 
             </div>
             <div className="card-body">
                 <h5 className="card-title">
