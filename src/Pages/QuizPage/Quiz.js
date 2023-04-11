@@ -8,8 +8,9 @@ function Quiz(props){
     const [buttonTitle, setButtonTitle] = useState("");
 
     useEffect(() => {
-       setUserAnswers(new Array(props.questions.length).fill(""));
-       setButtonTitle("Next")
+        console.log("props", props)
+        setUserAnswers(new Array(props.questions.length).fill(""));
+        setButtonTitle("Next")
     }, [])
 
     function changeQuestionNum() {
@@ -29,7 +30,6 @@ function Quiz(props){
             let temp = userAnswers;
             temp[currentQuestionNum] = selectedAnswer;
             setUserAnswers(temp);
-            //props.onEndOfQuiz(userAnswers);
             
             //store the user's answers in local storage
             localStorage.setItem("userAnswers", JSON.stringify(userAnswers))
@@ -41,13 +41,16 @@ function Quiz(props){
         
     }
 
+    function getQuestionOptions(){
+        return props.questions[currentQuestionNum].answers.split(";");
+    }
     
 
     return (
         <div className="quiz">
             <Question 
                 question = {props.questions[currentQuestionNum].question}
-                questionOptions = {props.questions[currentQuestionNum].answers}
+                questionOptions = {getQuestionOptions()}
                 currAnswer={selectedAnswer}
                 onChange = {(choice) => setSelectedAnswer(choice)} 
                 questionNumber = {currentQuestionNum}

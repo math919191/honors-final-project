@@ -9,8 +9,7 @@ import { ResourcesPage } from "./Pages/ResourcesPage"
 import React, { useState, useEffect } from "react";
 import { SelectAreaPage } from "./Pages/SelectAreaPage"
 
-import questions from './DataQuestions.json';
-import answers from './CorrectAnswers.json';
+import realQuestions from './QuestionsFromGoogleSheets.json';
 
 
 function App(){
@@ -20,9 +19,13 @@ function App(){
 
     useEffect(() => {
         setCurrentPage("HomePage");
-        localStorage.setItem("correctAnswers", JSON.stringify(answers.correctAnswers))
-        console.log(answers.correctAnswers)
+
+                
     }, [])
+
+    function setArea(area){
+        setCurrentArea(area);
+    }
     
      function getCurrentPage(pageName){
         switch(pageName){
@@ -32,16 +35,17 @@ function App(){
                 return <PreQuizPage nextPageFunction = {() => setCurrentPage("SelectAreaPage")}/>
             case "SelectAreaPage":
                 return <SelectAreaPage nextPageFunction = {() => setCurrentPage("QuizPage")}
-                                        setAreaFunction = {(area) => setCurrentArea(area)}/>
+                                        setAreaFunction = {(area) => setArea(area)}
+                                        possibleAreas = {Object.keys(realQuestions)}
+                                        />
             case "QuizPage":
                 return <QuizPage nextPageFunction = {() => setCurrentPage("PostQuizPage")}
-                    questions={questions}
-                    // TOO load the questions based on the selected area 
+                    questions={realQuestions[currentArea]}
                 />
             case "PostQuizPage":
                 return <PostQuizPage nextPageFunction = {() => setCurrentPage("AnswersPage")}/>
             case "AnswersPage":
-                return <AnswersPage correctResponses={answers.correctAnswers}
+                return <AnswersPage questions={realQuestions[currentArea]}
                                 changePage = {(pageName) => setCurrentPage(pageName)}
 
                                 />

@@ -1,0 +1,120 @@
+{
+    "North America": [
+        {
+            "questionnumber": 1,
+            "area": "North America",
+            "question": "What percentage of Canadian residents speak French?",
+            "answers": "47%;23%;70%;19%",
+            "correctAnswer": 2
+        },
+        {
+            "questionnumber": 2,
+            "area": "North America",
+            "question": "Canada’s top export to the US is maple syrup.",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "Canada’s top export to the US is crude petroleum (followed by cars and refined petroleum)."
+        },
+        {
+            "questionnumber": 3,
+            "area": "North America",
+            "question": "What percentage of adults in the US are either overweight or have obesity?",
+            "answers": "30.7%;40.5%;70.7%;72.3%",
+            "correctAnswer": 3,
+            "explanation": "More than two thirds of American adults are overweight or have obesity. In 2023, the CDC estimated that 40% are obese, while 30.7% are overweight."
+        },
+        {
+            "questionnumber": 4,
+            "area": "North America",
+            "question": "Roughly three in ten American adults are religiously unaffiliated (T/F).",
+            "answers": "True;False",
+            "correctAnswer": 1
+        },
+        {
+            "questionnumber": 5,
+            "area": "North America",
+            "question": "Which country consumes more soft-drink products?",
+            "answers": "United States;Mexio;Canada;Russia",
+            "correctAnswer": 2
+        }
+    ],
+    "Africa": [
+        {
+            "questionnumber": 1,
+            "area": "Africa",
+            "question": "There are 23 countries in Africa",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+        },
+        {
+            "questionnumber": 2,
+            "area": "Africa",
+            "question": "Where is ebola commonly found in Africa?",
+            "answers": "Eastern Africa;Northern Africa; Sub Sarahan Africa; The entire continent",
+            "correctAnswer": 3,
+            "explanation": "It is also important to remember that the Ebola virus was not just in African countries, it was also found in the UK and the United States. Many people in the U.S. were closer to the virus than many countries in Africa.",
+            "source": "https://www.cdc.gov/vhf/ebola/index.html#:~:text=Ebola%20Disease,-Related%20Pages&text=Ebola%20disease%20is%20caused%20by,primarily%20in%20sub%2DSaharan%20Africa."
+        }
+    ],
+    "Middle East": [
+        {
+            "questionnumber": 1,
+            "area": "Middle East",
+            "question": "There are 23 countries in Africa",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+        }
+    ],
+    "Oceania": [
+        {
+            "questionnumber": 1,
+            "area": "Oceania",
+            "question": "There are 23 countries in Africa",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+        }
+    ],
+    "Central/South America": [
+        {
+            "questionnumber": 1,
+            "area": "Central/South America",
+            "question": "There are 23 countries in Africa",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+        }
+    ],
+    "South/Southeast Asia": [
+        {
+            "questionnumber": 1,
+            "area": "South/Southeast Asia",
+            "question": "There are 23 countries in Africa",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+        }
+    ],
+    "Western Europe": [
+        {
+            "questionnumber": 1,
+            "area": "Western Europe",
+            "question": "There are 23 countries in Africa",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+        }
+    ],
+    "Eastern Europe": [
+        {
+            "questionnumber": 1,
+            "area": "Eastern Europe",
+            "question": "There are 23 countries in Africa",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+        }
+    ]
+}

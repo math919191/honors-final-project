@@ -14,10 +14,15 @@ function Results(props){
     useEffect(() => {
         let array1 = JSON.parse(localStorage.getItem("userAnswers"))
         setUserAnswers(array1);
-        let array2 = JSON.parse(localStorage.getItem("correctAnswers"));
+        let array2 = [];
+
+        props.questions.forEach(element => {
+            let correctAnswer = element.answers.split(";")[element.correctAnswer - 1];
+            array2.push(correctAnswer);
+        });
+
         setCorrectAnswers(array2);
  
-        console.log(array1, array2)
         let counter = 0;
         for (let i = 0; i < array1.length; i++){
             if (array1[i] == array2[i]){
@@ -44,6 +49,9 @@ function Results(props){
                         userResponse={userResponse}
                         // correctResponse={props.correctResponses[index]}
                         correctResponse = {correctAnswers[index]}
+                        explanation={props.questions[index].explanation}
+                        source={props.questions[index].source}
+
                         />
                     ))}
             </div>

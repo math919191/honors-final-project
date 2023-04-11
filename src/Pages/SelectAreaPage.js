@@ -1,24 +1,35 @@
-export function SelectAreaPage(props){
+import React, { useState } from "react";
 
-    function handleClick(){
-        //TODO actually get the input from the radio buttons
-        props.setAreaFunction("selectedArea");
-        props.nextPageFunction()
+
+export function SelectAreaPage(props){
+    const [selectedAnswer, setSelectedAnswer] = useState(props.currAnswer);
+
+    function handleClick(answer){
+        setSelectedAnswer(answer)
+        props.setAreaFunction(answer);
     }
 
     return (
         <div>
             <p>Select Area to learn more about </p>
-            <input type="radio" name="area" value="area 1"/>
-            <label for="child"> area 1 </label><br/>
-        
-            <input type="radio" name="area" value="area 2"/>
-            <label for="adult"> area 2 </label><br/>
-        
-            <input type="radio" name="area" value="area 3"/>
-            <label for="senior"> area 3 </label>  <br/>
+            {props.possibleAreas.map((choice, index) => (
+                <div>
+                    <label key={index} class="radio">
+                        <input type="radio"
+                            name="radio"
+                            value={choice}
+                            key={index}
+                            checked={selectedAnswer === choice}
+                            onChange={() => handleClick(choice)} />
+                        <span>{choice}</span>
 
-            <button onClick={() => handleClick() }>Submit and take the quiz </button>
+                    </label>
+                </div>
+                ))
+                }
+
+
+            <button onClick={() => props.nextPageFunction() }>Submit and take the quiz </button>
   
         </div>
         )
