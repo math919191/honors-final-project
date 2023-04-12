@@ -36,6 +36,20 @@
             "question": "Which country consumes more soft-drink products?",
             "answers": "United States;Mexio;Canada;Russia",
             "correctAnswer": 2
+        },
+        {
+            "questionnumber": 6,
+            "area": "North America",
+            "question": "What is the national animal of Mexico?",
+            "answers": "Axolotl;Jaguar;Mexican Rattlesnake;Eagle",
+            "correctAnswer": 4
+        },
+        {
+            "questionnumber": 7,
+            "area": "North America",
+            "question": "Immigrants accounted for how much of the US population in 2021?",
+            "answers": "11.9%;12.4%;13.6%;14.3%",
+            "correctAnswer": 3
         }
     ],
     "Africa": [
@@ -55,16 +69,172 @@
             "correctAnswer": 3,
             "explanation": "It is also important to remember that the Ebola virus was not just in African countries, it was also found in the UK and the United States. Many people in the U.S. were closer to the virus than many countries in Africa.",
             "source": "https://www.cdc.gov/vhf/ebola/index.html#:~:text=Ebola%20Disease,-Related%20Pages&text=Ebola%20disease%20is%20caused%20by,primarily%20in%20sub%2DSaharan%20Africa."
+        },
+        {
+            "questionnumber": 3,
+            "area": "Africa",
+            "question": "How many countries in Africa have English as an official language?",
+            "answers": "None;3;14;28",
+            "correctAnswer": 4,
+            "explanation": "It is important to note that these are only the countries that have English as an official language, many people speak English regardless of whether it is official or not.",
+            "source": "https://en.wikipedia.org/wiki/List_of_countries_and_territories_where_English_is_an_official_language"
+        },
+        {
+            "questionnumber": 4,
+            "area": "Africa",
+            "question": "What kind of animal does not exist naturally in the African Continent?",
+            "answers": "Gorillas;Alligators;Honey badgers;Abyssinian Lions;Aardvarks;Cape Buffalo;Penguins;Wildebeest",
+            "correctAnswer": 2,
+            "explanation": "Only crocodiles are native to African countries. Alligators are only found in North America. The diverse terrain found in Africa hosts a variety of animals, including penguins, gorillas, aardvarks, etc. "
+        },
+        {
+            "questionnumber": 5,
+            "area": "Africa",
+            "question": "True or False: Only three countries practice monarchy in the African continent",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "Only Eswatini, Lesotho, and Morocco practice absolute monarchy. The rest practice republicanism to a degree."
+        },
+        {
+            "questionnumber": 6,
+            "area": "Africa",
+            "question": "Which picture is taken somewhere in Africa and which is taken somewhere in the US?",
+            "answers": "Left is in the US and the Right is in Africa;Left is in Africa and Right is in the US",
+            "correctAnswer": 1,
+            "explanation": "There is a misconception and a lot of misinformation that the entirety of the African continent is underdeveloped when many of its nations are currently the fastest developing in the world. ",
+            "source": "https://www.youtube.com/watch?v=AHO1a1kvZGo"
+        },
+        {
+            "questionnumber": 7,
+            "area": "Africa",
+            "question": "Which services are not available in the African continent? ",
+            "answers": "Wifi;Streaming Services;Trains;Waterparks;Escalators;Inhalers;Menstrual Products;Bungee Jumping;Streaming Services and Menstrual Products;Waterparks and Trains;Escalators and Inhalers;None of the above",
+            "correctAnswer": 12,
+            "explanation": "It is true that there are many countries in Africa that are underdeveloped and need significant changes in infrastructure and medicine. However, there are many things that are developing fast that a lot of the world does not recognize. "
+        },
+        {
+            "questionnumber": 8,
+            "area": "Africa",
+            "question": "Which of the following has the most accurate description of the ecosystem/s of Africa?",
+            "answers": "Mostly Desert;Mostly Rainforest;Mostly Savannah grasslands;Desert and savannah grasslands;Desert and mountains;Coastal environments, desert and savannah grasslands;All of the above",
+            "correctAnswer": 7,
+            "explanation": "Africa has five main kinds of ecosystems: coastal environments, deserts and semideserts, mountain environments, savanna grasslands, and forests. There is a lot of misinformation that Africa is all Savannah or desert when it has a diverse range of ecosystems, even among its countries.",
+            "source": "https://geography.name/ecosystems/"
+        },
+        {
+            "questionnumber": 9,
+            "area": "Africa",
+            "question": "In Southern Africa, there is a term that describes going out on a drive where wildlife viewing is the main focus of the trip. What is it?",
+            "answers": "Gamedrive;Bushviewing;Safari;Savannah Excursion ",
+            "correctAnswer": 1,
+            "explanation": "The difference between a safari and a game drive is that a safari means the whole trip or itinerary and a game drive is an excursion part of that safari itinerary where wildlife viewing is the main focus of the trip. For example; you are going on a safari for seven days, which includes 8 game drives. People commonly misuse the word Safari for what is only called a Gamedrive in Southern Africa."
+        },
+        {
+            "questionnumber": 10,
+            "area": "Africa",
+            "question": "Which animals are considered to be a part of the famous “Big Five”?",
+            "answers": "Elephant, Hippopotamus, Rhinoceros, Giraffe, and Lion;Zebra, Giraffe, Lion, Hippopotamus, and Elephant;Leopard, Lion, Cheetah, Rhinoceros, Hippocampus;Rhinoceros, Elephant, Lion, Cape Buffalo, and Leopard ",
+            "correctAnswer": 4,
+            "source": "https://en.m.wikipedia.org/wiki/Big_five_game"
+        },
+        {
+            "questionnumber": 11,
+            "area": "Africa",
+            "question": "Where is Zambia located?",
+            "answers": "Western Africa;Northern Africa;Southern Africa;Central Africa;Eastern Africa ",
+            "correctAnswer": 3
         }
     ],
     "Middle East": [
         {
             "questionnumber": 1,
             "area": "Middle East",
-            "question": "There are 23 countries in Africa",
+            "question": "Why is the Middle East referred to as \"the crossroads of the world\"?",
+            "answers": "The mountain ranges have a unique cross pattern;It is connected to the story of Moses and how he used the Middle East to cross into the wilderness;The Middle East connects three continents;the Middle East includes a diverse range of coutnries of many languages and peoples",
+            "correctAnswer": 3,
+            "explanation": "The Middle East connects the three continents of Asia, Africa, and Europe",
+            "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
+        },
+        {
+            "questionnumber": 2,
+            "area": "Middle East",
+            "question": "True or False: the word \"Arab\" generally refers to someone who is from a country in the Middle East",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "The term “Arab” generally refers to people who speak Arabic as their first language.",
+            "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
+        },
+        {
+            "questionnumber": 3,
+            "area": "Middle East",
+            "question": "Roughly 60% of the population in the Middle East is___",
+            "answers": "Under 25 years old;Between 30 and 40 years old;Over the age of 50;Over 70 years old",
+            "correctAnswer": 1,
+            "explanation": "People do not know that a significant amounf of the polulation in the Middle East are quite young. ",
+            "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
+        },
+        {
+            "questionnumber": 4,
+            "area": "Middle East",
+            "question": "Where do the majority of people who practice Islam reside?",
+            "answers": "Afghanistan;Saudi Arabia;Zanzibar;Indonesia;Yemen;Ethiopia;Bangladesh",
+            "correctAnswer": 4,
+            "explanation": "The majority of Arabs are muslim but the majority of muslims are not Arabs which is a common misconception. The majority of Muslims like in South Asia- especially Indonesia. ",
+            "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
+        },
+        {
+            "questionnumber": 5,
+            "area": "Middle East",
+            "question": "True or False: the term \"Near East\" can be used Interchangably with the term \"Middle East\"",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+            "explanation": "Near East has referred to the countries in Western Asia that lie between Iran and the Mediterranean Sea. Middle East is referring to the region that includes North Africa and Western Asia.",
+            "source": "http://www.differencebetween.net/miscellaneous/difference-between-near-east-and-middle-east/#:~:text=Near%20East%20has%20referred%20to,North%20Africa%20and%20Western%20Asia."
+        },
+        {
+            "questionnumber": 6,
+            "area": "Middle East",
+            "question": "Which of the following best describes holidays within Islam:",
+            "answers": "Holidays in Islam are all about Muhammad;Islam celebrates the same holidays as Christians and Jews;The Islamic calendar is based on lunar cycles which determines when they will celebrate their holidays every year;Islamic holidays are all centered around prayer and animal sacrifice",
+            "correctAnswer": 3,
+            "explanation": "The Islamic calendar is based on lunar cycles, unlike the Gregorian and other calendars that are based on the Earth?s rotation around the sun.",
+            "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
+        },
+        {
+            "questionnumber": 7,
+            "area": "Middle East",
+            "question": "Which of the following animals is not native to Middle Eastern countries?",
+            "answers": "Striped Hyena;Camels;Arabian Oryx;Vervet monkeys;Fennec Fox;Desert Hedgehog ",
+            "correctAnswer": 4,
+            "explanation": "Vervet monkeys are native to Southern Africa and Eastern Africa, not any middle Eastern Countries",
+            "source": "https://www.visitsaudi.com/en/do/lifestyle/wildlife"
+        },
+        {
+            "questionnumber": 8,
+            "area": "Middle East",
+            "question": "True or False: In 2/3 of Middle Eastern Countries, more women attend university than men",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "It is a common misconception to assume that all women in the Middle East have no rights and no education.",
+            "source": "https://cmes.arizona.edu/sites/cmes.arizona.edu/files/Fun%20Facts%20about%20the%20Middle%20East.pdf"
+        },
+        {
+            "questionnumber": 9,
+            "area": "Middle East",
+            "question": "Which of the following countries produces the most oil, as of 2018 to present day?",
+            "answers": "United States;Saudi Arabia;Russia;UAE;Canada",
+            "correctAnswer": 1,
+            "explanation": "Saudi Arabia is the second highest country that produces oil, and it is the only Middle Eastern countr in the top five. ",
+            "source": "https://www.nasdaq.com/articles/what-countries-are-the-top-producers-of-oil"
+        },
+        {
+            "questionnumber": 10,
+            "area": "Middle East",
+            "question": "In how many Middle Eastern countries (out of 22) is it required to wear a hijab for women?",
+            "answers": "All of them;2; 8;15",
+            "correctAnswer": 2,
+            "explanation": "It is currently required for women in Afghanistan and Iran to wear Hijabs in public and in school. These are the only Middle Eastern countries with rules such as these. ",
+            "source": "https://en.wikipedia.org/wiki/Hijab_by_country#:~:text=In%20the%20Indonesian%20Aceh%20province,the%20hijab%20is%20not%20required."
         }
     ],
     "Oceania": [
@@ -81,10 +251,61 @@
         {
             "questionnumber": 1,
             "area": "Central/South America",
-            "question": "There are 23 countries in Africa",
+            "question": "Central Americans are all mestizos or indigenous people",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+            "explanation": "While mestizos and indigenous people do make up a significant portion of the population in many Central American countries, there are also communities of Afro-Caribbean, European, and Asian descent.",
+            "source": "https://www.frommers.com/destinations/central-america/in-depth/a-cultural-primer#:~:text=Central%20America's%20population%20of%2040,ancestry)%20are%20in%20the%20majority."
+        },
+        {
+            "questionnumber": 2,
+            "area": "Central/South America",
+            "question": "English is in the top 3 most spoken languages",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "Barely 1% of the South American population speaks English.  Quechua, a native language, is the third most spoken language with over 8 million speakers.",
+            "source": "https:"
+        },
+        {
+            "questionnumber": 3,
+            "area": "Central/South America",
+            "question": "How many languages/dialects are spoken in Peru?",
+            "answers": "12;35;5;80",
+            "correctAnswer": 4,
+            "explanation": "Peru is a multilingual country with more than 80 indigenous languages and dialects spoken by people from specific regions of the country, especially in the coastal region.",
+            "source": "https://www.polilingua.com/blog/post/peru-language-overview-what-languages-are-spoken-in-peru.htm#:~:text=However%2C%20Peru%20is%20a%20multilingual%20country%20with%20more%20than%2080,large%20number%20of%20people%20today."
+        },
+        {
+            "questionnumber": 4,
+            "area": "Central/South America",
+            "question": "Mexico is not part of Central America",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "Many tend to lump Mexico in together with South and Central American states and refer to the region as “Latin America.”",
+            "source": "https://geopoliticalfutures.com/why-mexico-belongs-in-north-america/"
+        },
+        {
+            "questionnumber": 5,
+            "area": "Central/South America",
+            "question": " Houses in South America have dirt floors",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "This is a common misconception due to the popularity of images that show the poorer areas in South America. While this is completely true for many cases, it is not for most of them."
+        },
+        {
+            "questionnumber": 6,
+            "area": "Central/South America",
+            "question": "Water is polluted in most areas of Central America",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "Maybe an easy one, but I've heard so many times. Like every other country, there are areas where water is polluted or contains parasites."
+        },
+        {
+            "questionnumber": 7,
+            "area": "Central/South America",
+            "question": "What percentage of South Americans have access to internet?",
+            "answers": "69;41;10;81",
+            "correctAnswer": 1
         }
     ],
     "South/Southeast Asia": [
@@ -100,7 +321,7 @@
     "Western Europe": [
         {
             "questionnumber": 1,
-            "area": "Western Europe",
+            "area": "South/Southeast Asia",
             "question": "There are 23 countries in Africa",
             "answers": "True;False",
             "correctAnswer": 2,

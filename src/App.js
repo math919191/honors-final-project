@@ -7,10 +7,11 @@ import { QuizPage } from "./Pages/QuizPage"
 import { ResourcesPage } from "./Pages/ResourcesPage"
 
 import React, { useState, useEffect } from "react";
-import { SelectAreaPage } from "./Pages/SelectAreaPage"
+import { SelectAreaPage } from "./Pages/Map/SelectAreaPage"
 
 import realQuestions from './QuestionsFromGoogleSheets.json';
 
+import './App.css'
 
 function App(){
 
@@ -59,7 +60,7 @@ function App(){
     }
 
     return (
-        <p>{getCurrentPage(currentPage)}</p>
+        <>{getCurrentPage(currentPage)}</>
     )
 }
 export default App;

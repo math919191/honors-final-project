@@ -1,7 +1,8 @@
-.content {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    /* border : yellow solid 10px; */
-    margin: 30px;
-  }
+:root {
+  --background: #1e90ff;
+  --white: #ffffff;
+}
+
+/* * {
+  background-color: var(--background);
+} */

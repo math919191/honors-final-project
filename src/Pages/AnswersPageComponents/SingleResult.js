@@ -10,7 +10,8 @@ export function SingleResult(props){
         <div className="card result w-50">
 
             <div className={"card-header " + getCorrectNess()}>
-                Question: { (props.questionNum + 1) + " -- " + getCorrectNess() } 
+                Question: { (props.questionNum + 1) + " -- " + getCorrectNess() + "  " } 
+                {props.question}
             </div>
             <div className="card-body">
                 <h5 className="card-title">

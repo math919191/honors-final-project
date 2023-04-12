@@ -48,6 +48,7 @@ function Results(props){
                         questionNum={index}
                         userResponse={userResponse}
                         // correctResponse={props.correctResponses[index]}
+                        question={props.questions[index].question}
                         correctResponse = {correctAnswers[index]}
                         explanation={props.questions[index].explanation}
                         source={props.questions[index].source}
