@@ -47,17 +47,19 @@ function Quiz(props){
     
 
     return (
-        <div className="quiz">
-            <Question 
-                question = {props.questions[currentQuestionNum].question}
-                questionOptions = {getQuestionOptions()}
-                currAnswer={selectedAnswer}
-                onChange = {(choice) => setSelectedAnswer(choice)} 
-                questionNumber = {currentQuestionNum}
-                
-            />
-            <div className="buttons">
-                <button variant="primary" onClick={()=>changeQuestionNum("next")}>{buttonTitle}</button>{' '}
+        <div className="quizContainer">
+            <div className="quiz">
+                <Question 
+                    question = {props.questions[currentQuestionNum].question}
+                    questionOptions = {getQuestionOptions()}
+                    currAnswer={selectedAnswer}
+                    onChange = {(choice) => setSelectedAnswer(choice)} 
+                    questionNumber = {currentQuestionNum}
+                    
+                />
+                <div className="buttons">
+                    <button variant="primary" onClick={()=>changeQuestionNum("next")}>{buttonTitle}</button>{' '}
+                </div>
             </div>
         </div>
     )

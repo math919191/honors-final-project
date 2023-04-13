@@ -7,10 +7,11 @@ import { QuizPage } from "./Pages/QuizPage"
 import { ResourcesPage } from "./Pages/ResourcesPage"
 
 import React, { useState, useEffect } from "react";
-import { SelectAreaPage } from "./Pages/SelectAreaPage"
+import { SelectAreaPage } from "./Pages/Map/SelectAreaPage"
 
 import realQuestions from './QuestionsFromGoogleSheets.json';
 
+import './App.css'
 
 function App(){
 
@@ -30,7 +31,9 @@ function App(){
      function getCurrentPage(pageName){
         switch(pageName){
             case "HomePage":
-                return <HomePage nextPageFunction = {() => setCurrentPage("PreQuizPage")}/>
+                // return <HomePage nextPageFunction = {() => setCurrentPage("PreQuizPage")}/>
+                return <HomePage nextPageFunction = {() => setCurrentPage("SelectAreaPage")}/>
+                
             case "PreQuizPage":
                 return <PreQuizPage nextPageFunction = {() => setCurrentPage("SelectAreaPage")}/>
             case "SelectAreaPage":
@@ -39,9 +42,13 @@ function App(){
                                         possibleAreas = {Object.keys(realQuestions)}
                                         />
             case "QuizPage":
-                return <QuizPage nextPageFunction = {() => setCurrentPage("PostQuizPage")}
+                return <QuizPage nextPageFunction = {() => setCurrentPage("AnswersPage")}
                     questions={realQuestions[currentArea]}
                 />
+
+                // return <QuizPage nextPageFunction = {() => setCurrentPage("PostQuizPage")}
+                //     questions={realQuestions[currentArea]}
+                // />
             case "PostQuizPage":
                 return <PostQuizPage nextPageFunction = {() => setCurrentPage("AnswersPage")}/>
             case "AnswersPage":
@@ -59,7 +66,7 @@ function App(){
     }
 
     return (
-        <p>{getCurrentPage(currentPage)}</p>
+        <>{getCurrentPage(currentPage)}</>
     )
 }
 export default App;

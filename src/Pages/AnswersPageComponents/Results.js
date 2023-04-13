@@ -42,12 +42,15 @@ function Results(props){
         <div>
             
             <div className="results">
+                <h1>Results</h1>
+
                 <h2>You got {percentCorrect}% correct!</h2>
                 {userAnswers.map((userResponse, index) => (
                     <SingleResult 
                         questionNum={index}
                         userResponse={userResponse}
                         // correctResponse={props.correctResponses[index]}
+                        question={props.questions[index].question}
                         correctResponse = {correctAnswers[index]}
                         explanation={props.questions[index].explanation}
                         source={props.questions[index].source}
