@@ -14,11 +14,11 @@ export function SelectAreaPage(props){
 
     return (
         <div>
-            <p>Select Area to learn more about </p>
             <SimpleMap 
                 handleClick={ (choice) => handleClick(choice)}
             />
-            {props.possibleAreas.map((choice, index) => (
+            {/* This was the radio buttons, but I replaced them with a cool map */}
+            {/* {props.possibleAreas.map((choice, index) => (
                 <div>
                     <label key={index} class="radio">
                         <input type="radio"
@@ -32,10 +32,8 @@ export function SelectAreaPage(props){
                     </label>
                 </div>
                 ))
-                }
-
-
-            <button onClick={() => props.nextPageFunction() }>Submit and take the quiz </button>
+            }
+            <button onClick={() => props.nextPageFunction() }>Submit and take the quiz </button> */}
   
         </div>
         )

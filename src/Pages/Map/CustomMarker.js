@@ -2,13 +2,35 @@ import React, { useState, useEffect } from "react";
 
 export default function CustomMarker(props){
 
-    const [currentMarkerText, setCurrentMarkerText] = useState("Click on me");
+    const [currentMarkerText, setCurrentMarkerText] = useState("Click to learn more about " + props.areaName);
+    const [hovering, setHovering] = useState(false);
 
-    return <div className="obvious"
-    onClick={()=> props.onClick()}
-    onMouseOver={()=> setCurrentMarkerText("CLICK TO LEARN ABOUT" + props.areaName)}
-    onMouseLeave={()=> setCurrentMarkerText("Click on me")}
-    > {currentMarkerText}</div>
+    function mouseHoverOn(){
+        setHovering(true)
+    }
+
+    function mouseHoverOff(){
+        setHovering(false)
+    }
+
+
+    return (
+    <>
+    
+        <div className="marker"
+            onClick={()=> props.onClick()}
+            onMouseOver={()=> mouseHoverOn()}
+            onMouseLeave={()=> mouseHoverOff()}
+            >
+        </div>
+        { hovering &&
+            <div class="tooltip">
+                <span class="tooltiptext">{currentMarkerText}</span>
+            </div>
+
+        }
+    </>
+    )
 }
 
 // const CustomMarker = (props) => {

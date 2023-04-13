@@ -34,13 +34,16 @@ export default function SimpleMap(props){
     zoom: 2
   };
   return (
-    // Important! Always set the container height explicitly
-    <div style={{ height: '100vh', width: '100%' }}>
+
+<div className="map-container">
+<div>Select an area to learn more</div>
+
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyCdENsILOa3mUmgHdXqQfeNdpbgcerUq1U" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >
+        
         { Object.keys(coors).map( (element) => (
           
           <CustomMarker 
@@ -48,7 +51,6 @@ export default function SimpleMap(props){
             lng={coors[element].lng}
             areaName={element}
             onClick={ () => props.handleClick(element)}
-            // onMouseover={() => console.log("hellos")}
           />            
         ))
       }

@@ -241,10 +241,92 @@
         {
             "questionnumber": 1,
             "area": "Oceania",
-            "question": "There are 23 countries in Africa",
+            "question": "Which one is the continent: Oceania or Australia?",
+            "answers": "Oceania;Australia;Both",
+            "correctAnswer": 3,
+            "explanation": "This question is tricky. Technically, both are correct. In many continents, the educational system says that Oceania is the continent; however, in the US, it is a geographical region and thus, Australia is the continent.",
+            "source": "https://education.nationalgeographic.org/resource/oceania-physical-geography/"
+        },
+        {
+            "questionnumber": 2,
+            "area": "Oceania",
+            "question": "People ride kangaroos to school in Australia",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+            "explanation": "Kangaroos and koalas rarely come into the cities, but if you venture inland to the country communities you should be able to find some. Just don’t try to pat them.",
+            "source": "https://theplanetd.com/gday-some-aussie-stereotypes/"
+        },
+        {
+            "questionnumber": 3,
+            "area": "Oceania",
+            "question": "In Australia, you will find the most lethal, deadly creatures.",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "Yes, there are many deadly animals in Australia. That does not mean you will die if you go there! You can be one of the 1-2 people that are eaten by a crocodile in Australia.",
+            "source": "https://theplanetd.com/gday-some-aussie-stereotypes/"
+        },
+        {
+            "questionnumber": 4,
+            "area": "Oceania",
+            "question": "What's the capital of Australia?",
+            "answers": "Sydney;Melbourne;Canberra;Brisbane",
+            "correctAnswer": 3,
+            "explanation": "Sydney and Melbourne are the most known cities in Australia. However, the capital is Canberra!",
+            "source": "https:google.com"
+        },
+        {
+            "questionnumber": 5,
+            "area": "Oceania",
+            "question": "Australians swear a lot",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "Australians do swear a lot. More than the majority. However, this is due to swears being in their advertising, literature, and many aspects of their lives. It is more normalized than in the US and UK, which is why it seems like a lot to us.",
+            "source": "https://cosmosmagazine.com/people/culture/australians-swearing/"
+        },
+        {
+            "questionnumber": 6,
+            "area": "Oceania",
+            "question": "Aboriginal Australians are nomadic",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "They are just regular people. Movies and pop culture tends to depict them as people who do the hula dance, lack complex laws, and don't behave. ",
+            "source": "https://www.creativespirits.info/aboriginalculture/people/stereotypes-prejudice-of-aboriginal-australia"
+        },
+        {
+            "questionnumber": 7,
+            "area": "Oceania",
+            "question": "How many countries are in Australia (continent)?",
+            "answers": "3;11;23;15",
+            "correctAnswer": 1,
+            "explanation": "There are just three in the continent of Australia: Australia, Papua New Guinea, and New Zealand. In Oceania, there are many regions, countries, and territories; these include the three countries mentioned above.",
+            "source": "https://onestep4ward.com/how-many-countries-in-australia/"
+        },
+        {
+            "questionnumber": 8,
+            "area": "Oceania",
+            "question": "Cannibalism is practiced a lot Papua New Guinea",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "While it happened in the past, it is not the case these days. Yes, there are some native tribes that may do this; however, that is not the case for the majority of the country.",
+            "source": "https://www.worldfootprints.com/confronting-cannibalism-stereotypes-in-papua-new-guinea/"
+        },
+        {
+            "questionnumber": 9,
+            "area": "Oceania",
+            "question": "Samoans are all wrestlers ",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "Many famous Samoans are known for wrestling, which results in the stereotype that all of them are big, muscular men who are born for wrestling. ",
+            "source": "https://tvtropes.org/pmwiki/pmwiki.php/NationalStereoTypes/Oceania"
+        },
+        {
+            "questionnumber": 10,
+            "area": "Oceania",
+            "question": "How many countries are in the Pacific Islands",
+            "answers": "15;7;11;9",
+            "correctAnswer": 1,
+            "explanation": "Since the Pacific Islands are comprised of thousands of islands and territories, the number of countries in this group is often up for debate. However, according to a World Health Organization report, there are 15 countries in the Pacific Island",
+            "source": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjF9qzGwaX-AhUuJEQIHc2_CBUQFnoECAsQAw&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fa36433344%2Fpacific-island-countries%2F&usg=AOvVaw1b50aVe2weXSo3HFhU3Iex"
         }
     ],
     "Central/South America": [
@@ -264,7 +346,7 @@
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "Barely 1% of the South American population speaks English.  Quechua, a native language, is the third most spoken language with over 8 million speakers.",
-            "source": "https:"
+            "source": "https://www-babbel-com.translate.goog/en/magazine/languages-in-south-america?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=rq#:~:text=English%20is%20the%20third%20most,followed%20by%20Guyana%20(680%2C000)."
         },
         {
             "questionnumber": 3,
@@ -304,8 +386,37 @@
             "questionnumber": 7,
             "area": "Central/South America",
             "question": "What percentage of South Americans have access to internet?",
-            "answers": "69;41;10;81",
-            "correctAnswer": 1
+            "answers": "68;98;20;81",
+            "correctAnswer": 1,
+            "explanation": "People tend to overestimate the percentage of South Americans with access to the internet. If you underestimate it, you should know that South America is not entirely what the news paint it to be. There is a lot of technological development in many areas, but it does have a hundreds of millions of people without access to it.",
+            "source": "https://www.iadb.org/en/news/least-77-million-rural-inhabitants-have-no-access-high-quality-internet-services"
+        },
+        {
+            "questionnumber": 8,
+            "area": "Central/South America",
+            "question": "How many countries do you think are in Central America?",
+            "answers": "5;10;7;9",
+            "correctAnswer": 3,
+            "explanation": "There are 7 countries there: Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica and Panama. ",
+            "source": "https://www.nationsonline.org/oneworld/america.htm#:~:text=There%20are%20seven%20countries%20in,Central%20America%20(in%202019)."
+        },
+        {
+            "questionnumber": 9,
+            "area": "Central/South America",
+            "question": "Which of these countries belongs to South America or Central America?",
+            "answers": "French Guiana;Haiti;Suriname;All of the Above;None of the Above",
+            "correctAnswer": 4,
+            "explanation": "While the names may be deceiving, people tend to think that none or some of the above aren't part of South America or Central America.",
+            "source": "https://www.worldatlas.com/articles/least-visited-countries-in-south-america.html#:~:text=Guyana%20is%20the%20least%20visited,The%20Land%20of%20Many%20Waters.%E2%80%9D"
+        },
+        {
+            "questionnumber": 10,
+            "area": "Central/South America",
+            "question": "All Latin Americans Have Homogenous Origins",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "People tend to categorize South and Central Americans into one group: Mexicans. While we share some traits, the histories are different from each country, and thus, the background and experiences.",
+            "source": "https://www.verywellmind.com/6-harmful-stereotypes-about-latin-americans-5113358"
         }
     ],
     "South/Southeast Asia": [
@@ -321,11 +432,11 @@
     "Western Europe": [
         {
             "questionnumber": 1,
-            "area": "South/Southeast Asia",
-            "question": "There are 23 countries in Africa",
+            "area": "Western Europe",
+            "question": "How many people speak more than one language? ",
             "answers": "True;False",
-            "correctAnswer": 2,
-            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+            "correctAnswer": 2
+
         }
     ],
     "Eastern Europe": [
