@@ -42,6 +42,8 @@ function Results(props){
         <div>
             
             <div className="results">
+                <h1>Results</h1>
+
                 <h2>You got {percentCorrect}% correct!</h2>
                 {userAnswers.map((userResponse, index) => (
                     <SingleResult 

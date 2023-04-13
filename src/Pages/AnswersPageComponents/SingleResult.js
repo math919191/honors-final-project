@@ -19,7 +19,7 @@ export function SingleResult(props){
                 The Correct Answer: {props.correctResponse}
                 </h5>
                 <p>Explanation: {props.explanation}</p>
-                <p>Source <a href={props.source}>Source</a></p>
+                <p><a href={props.source}>Source</a></p>
             </div>
 
         </div>

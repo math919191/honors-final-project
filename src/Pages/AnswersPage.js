@@ -9,7 +9,6 @@ export function AnswersPage(props){
     
     return (
         <div>
-            <h1>Results</h1>
             <Results questions={props.questions}/>
             {/* <button onClick={() => props.changePage("ResourcesPage")}>Look at more resources! </button> */}
             <p>There used to be a link to a resources page...are we still doing that? </p>

@@ -31,7 +31,9 @@ function App(){
      function getCurrentPage(pageName){
         switch(pageName){
             case "HomePage":
-                return <HomePage nextPageFunction = {() => setCurrentPage("PreQuizPage")}/>
+                // return <HomePage nextPageFunction = {() => setCurrentPage("PreQuizPage")}/>
+                return <HomePage nextPageFunction = {() => setCurrentPage("SelectAreaPage")}/>
+                
             case "PreQuizPage":
                 return <PreQuizPage nextPageFunction = {() => setCurrentPage("SelectAreaPage")}/>
             case "SelectAreaPage":
@@ -40,9 +42,13 @@ function App(){
                                         possibleAreas = {Object.keys(realQuestions)}
                                         />
             case "QuizPage":
-                return <QuizPage nextPageFunction = {() => setCurrentPage("PostQuizPage")}
+                return <QuizPage nextPageFunction = {() => setCurrentPage("AnswersPage")}
                     questions={realQuestions[currentArea]}
                 />
+
+                // return <QuizPage nextPageFunction = {() => setCurrentPage("PostQuizPage")}
+                //     questions={realQuestions[currentArea]}
+                // />
             case "PostQuizPage":
                 return <PostQuizPage nextPageFunction = {() => setCurrentPage("AnswersPage")}/>
             case "AnswersPage":
