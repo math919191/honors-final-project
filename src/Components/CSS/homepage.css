@@ -1,0 +1,27 @@
+.maindiv {  
+    padding:30px;
+    background-color: aliceblue;
+    height: fit-content;
+    width: fit-content;
+}
+
+.flex {
+    display: flex;
+}
+.indiv {
+    padding:2%;
+}
+
+img {
+    height: 300px;
+    width: auto;
+    padding:10px;
+}
+
+.mainmaindiv {
+    margin-top:5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    width: 80%;
+}
