@@ -36,7 +36,7 @@ export default function SimpleMap(props){
   return (
 
 <div className="map-container">
-<div>Select an area to learn more</div>
+<div class="maptext"> Select an area to learn more: </div>
 
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyCdENsILOa3mUmgHdXqQfeNdpbgcerUq1U" }}

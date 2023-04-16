@@ -7,66 +7,65 @@ export function HomePage(props){
     return (
         <div class="mainmaindiv">
             <div class="maindiv">
-            <h1>World Wide Wisdom!</h1>
+            <h1 class="maintitle">World Wide Wisdom!</h1>
             <div class="flex">
-                <p class="indiv">Welcome to World Wide Wisdom!<br/>
-                    Are you ready to prove how much you    <br/>
-                    know about cultures around the world?</p>
+                <p class="indiv">Welcome to World Wide Wisdom!
+                    Are you ready to prove how much you
+                    know about cultures around the world?
+                    you think you know and how much you actually do!
+                    </p>
 
                     <Carousel fade>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={"https://www.yaccatravels.com/public/userfiles/Nepali-culture-bel-bibah.png"}
-                            alt="First slide"
+                            src={"https://cdn.wallpapersafari.com/90/37/6lgX4V.jpeg"}
+                            alt="Nepal"
                             />
                             <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Nepal</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            src={"https://www.yaccatravels.com/public/userfiles/Nepali-culture-bel-bibah.png"}
-                            alt="Second slide"
-                            />
 
-                            <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={"https://www.yaccatravels.com/public/userfiles/Nepali-culture-bel-bibah.png"}
-                            alt="Third slide"
+                            src={"https://cdn.wallpapersafari.com/6/79/ktpAxI.jpg"}
+                            alt="Peru"
                             />
+                            <Carousel.Caption>
+                            <h3>Peru</h3>
+                            </Carousel.Caption>
 
-                            <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>
-                                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                            </p>
-                            </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
-                            src={"https://www.yaccatravels.com/public/userfiles/Nepali-culture-bel-bibah.png"}
-                            alt="Fourth slide"
+                            src={"https://www.eomap.com/wp-content/uploads/2018/12/Tonga_1920x1080.png"}
+                            alt="Tonga"
                             />
                             <Carousel.Caption>
-                            <h3>Fourth slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Tonga</h3>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+
+                        <Carousel.Item>
+                            <img
+                            className="d-block w-100"
+                            src={"https://cdn.wallpapersafari.com/80/28/6w1zCZ.jpg"}
+                            alt="South Africa"
+                            />
+                            <Carousel.Caption>
+                            <h3>South Africa</h3>
                             </Carousel.Caption>
                         </Carousel.Item>
                         </Carousel>
 
             </div>
             <br/>
-            <Button variant="primary" onClick={() => props.nextPageFunction()}>Click here to take the quiz</Button>{' '}
+            <div class="centerbutton">
+                <Button variant="primary text-center" onClick={() => props.nextPageFunction()}>Click here to take the quiz</Button>{' '}
+            </div>
         </div>
         </div>
     )

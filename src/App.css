@@ -14,9 +14,13 @@
 }
 
 .quiz {
-  border: solid black 1px;
+  border: solid black 2px;
   max-width: 500px;
-  margin: 20px;
   padding: 20px;
+  background-color: blanchedalmond;
+  margin-top: 10%;
+}
 
+.space {
+  margin-top:10px;
 }
