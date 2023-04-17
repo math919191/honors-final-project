@@ -272,7 +272,7 @@
             "answers": "Sydney;Melbourne;Canberra;Brisbane",
             "correctAnswer": 3,
             "explanation": "Sydney and Melbourne are the most known cities in Australia. However, the capital is Canberra!",
-            "source": "https:google.com"
+            "source": "https:"
         },
         {
             "questionnumber": 5,
@@ -421,32 +421,27 @@
     ],
     "South/Southeast Asia": [
         {
-            "questionnumber": 1,
-            "area": "South/Southeast Asia",
-            "question": "There are 23 countries in Africa",
-            "answers": "True;False",
-            "correctAnswer": 2,
-            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
-        }
-    ],
-    "Western Europe": [
-        {
-            "questionnumber": 1,
-            "area": "Western Europe",
-            "question": "How many people speak more than one language? ",
-            "answers": "True;False",
+            "questionnumber": 2,
+            "area": "Asia",
+            "question": "Which is the most ethnically diverse country in Asia?",
+            "answers": "Indonesia;India;Nepal;China",
             "correctAnswer": 2
-
-        }
-    ],
-    "Eastern Europe": [
+        },
         {
-            "questionnumber": 1,
-            "area": "Eastern Europe",
-            "question": "There are 23 countries in Africa",
-            "answers": "True;False",
+            "questionnumber": 3,
+            "area": "Asia",
+            "question": "Out of 2,300 languages in Asia, Mandarin is the most widely spoken language. What percentage of people in Asia speak Mandarin?",
+            "answers": "45%;51%;63%;79%",
+            "correctAnswer": 1,
+            "source": "https://social-policy.org.uk/spa-blog/ethnicity-and-inequality-in-southeast-asia/#:~:text=In%20our%20session%2C%20four%20participants,(around%201%2C300%20ethnic%20groups)"
+        },
+        {
+            "questionnumber": 4,
+            "area": "Asia",
+            "question": "Unknown sources claim that America is the only country to be silly and have paper bills. As of 2023, GDP wise, which is the richest country in Asia?",
+            "answers": "India;Japan;China;Indonesia",
             "correctAnswer": 2,
-            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+            "source": "https://www.jumpspeak.com/blog/whats-the-most-spoken-language-in-asia-you-may-know-the-answer"
         }
     ]
 }

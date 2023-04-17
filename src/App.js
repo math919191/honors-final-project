@@ -19,7 +19,7 @@ function App(){
     const [currentArea, setCurrentArea] = useState("");
 
     useEffect(() => {
-        setCurrentPage("HomePage");
+        setCurrentPage("PreQuizPage");
 
                 
     }, [])
