@@ -25,7 +25,6 @@ export default function SimpleMap(props){
     "Middle East" : {lat: 30.382355763597534, lng: 45.70861572712031},
     "Utah": {lat: 41.79062000438607, lng: -112.93370047762367}
      
-
   }
 
   const defaultProps = {
