@@ -1,0 +1,46 @@
+[
+    {
+        "question": "How often do you watch the news?",
+        "questiontype": "Pre"
+    },
+    {
+        "question": "How confident do you feel in your knowledge about geography?",
+        "questiontype": "Pre"
+    },
+    {
+        "question": "Have you been able to travel to different places in your life? If so how often?",
+        "questiontype": "Pre"
+    },
+    {
+        "question": "Do you think that misinformation and stereotypes have influenced the way you see certain countries/areas in the world?",
+        "questiontype": "Pre"
+    },
+    {
+        "question": "How important is international news, relations, and knowledge to you?",
+        "questiontype": "Pre"
+    },
+    {
+        "question": "Has your confidence in your geography knowledge changed? Please indicate",
+        "questiontype": "Post"
+    },
+    {
+        "question": "Which of the following topics do you feel like you need to improve your knowledge in?",
+        "questiontype": "Post"
+    },
+    {
+        "question": "Do you feel like stereotypes or misinformation influenced the answers you gave on the quiz? If so please elaborate",
+        "questiontype": "Post"
+    },
+    {
+        "question": "Did you find the questions interesting? ",
+        "questiontype": "Post"
+    },
+    {
+        "question": "Did this quiz make you want to research more about other countries?",
+        "questiontype": "Post"
+    },
+    {
+        "question": "If you were to interact with someone from a different country than you, would it be hard for you to connect with them?",
+        "questiontype": "Post"
+    }
+]

@@ -17,6 +17,9 @@ function App(){
 
     const [currentPage, setCurrentPage] = useState("");
     const [currentArea, setCurrentArea] = useState("");
+    const [includePrePostQuiz, setIncludePrePostQuiz] = useState(true);
+
+
 
     useEffect(() => {
         setCurrentPage("HomePage");
@@ -31,8 +34,8 @@ function App(){
      function getCurrentPage(pageName){
         switch(pageName){
             case "HomePage":
-                // return <HomePage nextPageFunction = {() => setCurrentPage("PreQuizPage")}/>
-                return <HomePage nextPageFunction = {() => setCurrentPage("SelectAreaPage")}/>
+                let nextPage = (includePrePostQuiz ? "PreQuizPage" : "SelectAreaPage")
+                return <HomePage nextPageFunction = {() => setCurrentPage(nextPage)}/>
                 
             case "PreQuizPage":
                 return <PreQuizPage nextPageFunction = {() => setCurrentPage("SelectAreaPage")}/>
@@ -42,7 +45,8 @@ function App(){
                                         possibleAreas = {Object.keys(realQuestions)}
                                         />
             case "QuizPage":
-                return <QuizPage nextPageFunction = {() => setCurrentPage("AnswersPage")}
+                let nextPageFromQuiz = (includePrePostQuiz ? "PostQuizPage" : "AnswersPage")
+                return <QuizPage nextPageFunction = {() => setCurrentPage(nextPageFromQuiz)}
                     questions={realQuestions[currentArea]}
                 />
 

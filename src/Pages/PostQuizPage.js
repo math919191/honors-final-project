@@ -1,26 +1,31 @@
+import questions from "../assets/prepostquizquestions.json"
+
+
 export function PostQuizPage(props){
 
+
+    function getQuestionRender(question){
+        if (question.questiontype.toLowerCase() == "post"){
+            return (
+                <>
+                    <p>{question.question}</p>
+                    <textarea id="answer" name="answer" rows="4" cols="50">
+                    </textarea>
+                </>
+            )
+        }
+    }
+
+
     return (
-        <div>
-            <h1>PostQuizPage -- Reflect on how you did </h1>
-            <div class="slidecontainer">
-                <p>Question 1</p>
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
-                <p>Question 2</p>
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
-                <p>Question 3</p>
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
-                <p>Question 4</p>
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
-            </div>
-            <label for="fname">Reflect Heavily about your experience...</label>
+
+        <div class="filler">
+            <h1>Post Quiz Questions</h1>
+            {questions.map( (element) => (
+                getQuestionRender(element)
+            ))}
             <br/>
-
-            <textarea name="Text1" cols="40" rows="5"></textarea>
-
-            <br/>
-
-            <button onClick={() => props.nextPageFunction()}>See how you did!</button>
+            <button onClick={() => props.nextPageFunction()}>Click here to see how you did</button>
 
         </div>
     )

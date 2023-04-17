@@ -1,27 +1,31 @@
+import questions from "../assets/prepostquizquestions.json"
 
-import React, { useState } from 'react';
-import Slider from 'react-input-slider';
 
 export function PreQuizPage(props){
-    const [state, setState] = useState({ x: 15, y: 15 });
+
+
+    function getQuestionRender(question){
+        if (question.questiontype.toLowerCase() == "pre"){
+            return (
+                <>
+                    <p>{question.question}</p>
+                    <textarea id="answer" name="answer" rows="4" cols="50">
+                    </textarea>
+                </>
+            )
+        }
+    }
+
 
     return (
-        <div>
-            <h1>PreQuizPage</h1>
 
-            <div class="slidecontainer">
-                <p>Question 1 This now now question test</p>
-                
-                <Slider
-                    axis="x"
-                    x={state.x}
-                    onChange={({ x }) => setState(state => ({ ...state, x }))}
-                />
-
-                <input type="range" min="1" max="100" value="50" class="slider" id="myRange"/>
-
-            </div>
-            <button onClick={() => props.nextPageFunction()}>Click here to select a quiz</button>
+        <div class="filler">
+            <h1>Post Quiz Questions</h1>
+            {questions.map( (element) => (
+                getQuestionRender(element)
+            ))}
+            <br/>
+            <button onClick={() => props.nextPageFunction()}>Click here to take the quiz</button>
 
         </div>
     )

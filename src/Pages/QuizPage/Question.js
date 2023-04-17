@@ -43,18 +43,6 @@ function Question(props){
             }
 
         }
-        // imageRef.forEach(element => {
-
-            
-        //     console.log(`comp ${compArea} element ${element.area}`)
-        //     console.log(`comp ${compArea} element ${element.area}`)
-        //     console.log()
-        //     if (element.area ==  compArea && compNum == element.questionnum){
-        //         console.log("MADE IT", element.imagereference)
-        //         return element.imagereference;
-        //     }
-        // });          
-        //return "https://picsum.photos/300/300?random=1&grayscale"
     }
 
     return (
