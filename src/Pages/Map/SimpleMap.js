@@ -19,10 +19,12 @@ export default function SimpleMap(props){
     "Central/South America": {lat: 5.9199454529367745, lng: -63.33901104075203},
     "Africa": {lat: 7.839524813624917, lng: 17.520364578097922},
     "South/Southeast Asia": {lat: 29.03511583988592, lng: 88.36020822845255},
-    // "Western Europe": {lat: 50.8184848693786, lng:0.46958060620685443},
-    // "Eastern Europe": {lat: 55.83819603105466, lng:55.444456315925706},
+    "Western Europe": {lat: 50.8184848693786, lng:0.46958060620685443},
+    "Eastern Europe": {lat: 55.83819603105466, lng:55.444456315925706},
     "Oceania" : {lat: -21.7135954837848, lng: 133.10445506470765},
     "Middle East" : {lat: 30.382355763597534, lng: 45.70861572712031},
+    "Utah": {lat: 41.79062000438607, lng: -112.93370047762367}
+     
 
   }
 

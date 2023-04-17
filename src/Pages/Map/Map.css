@@ -72,7 +72,7 @@
   }
   
   /* Tooltip text */
-  .tooltip .tooltiptext {
+.tooltip .tooltiptext {
     visibility: visible;
     width: 120px;
     height: 50px;

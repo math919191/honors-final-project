@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './Marker.css'
 
 export default function CustomMarker(props){
 
@@ -23,6 +24,7 @@ export default function CustomMarker(props){
             onMouseLeave={()=> mouseHoverOff()}
             >
         </div>
+
         { hovering &&
             <div class="tooltip">
                 <span class="tooltiptext">{currentMarkerText}</span>

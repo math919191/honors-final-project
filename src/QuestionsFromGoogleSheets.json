@@ -21,14 +21,17 @@
             "question": "What percentage of adults in the US are either overweight or have obesity?",
             "answers": "30.7%;40.5%;70.7%;72.3%",
             "correctAnswer": 3,
-            "explanation": "More than two thirds of American adults are overweight or have obesity. In 2023, the CDC estimated that 40% are obese, while 30.7% are overweight."
+            "explanation": "More than two thirds of American adults are overweight or have obesity. In recent years, the CDC estimated that 40% are obese, while 30.7% are overweight.",
+            "source": "https://www.cdc.gov/obesity/index.html"
         },
         {
             "questionnumber": 4,
             "area": "North America",
             "question": "Roughly three in ten American adults are religiously unaffiliated (T/F).",
             "answers": "True;False",
-            "correctAnswer": 1
+            "correctAnswer": 1,
+            "explanation": "In 2021, the Pew Research Center found that roughly 30% of American adults identify as religiously unaffiliated.",
+            "source": "https://www.pewresearch.org/religion/2021/12/14/about-three-in-ten-u-s-adults-are-now-religiously-unaffiliated/"
         },
         {
             "questionnumber": 5,
@@ -42,7 +45,8 @@
             "area": "North America",
             "question": "What is the national animal of Mexico?",
             "answers": "Axolotl;Jaguar;Mexican Rattlesnake;Eagle",
-            "correctAnswer": 4
+            "correctAnswer": 4,
+            "explanation": "The official national animal of Mexico is the golden eagle! We think the axolotl, however, deserves a shoutout as the country's national amphibian."
         },
         {
             "questionnumber": 7,
@@ -50,6 +54,107 @@
             "question": "Immigrants accounted for how much of the US population in 2021?",
             "answers": "11.9%;12.4%;13.6%;14.3%",
             "correctAnswer": 3
+        },
+        {
+            "questionnumber": 8,
+            "area": "North America",
+            "question": "What is the tallest mountain in North America?",
+            "answers": "Mount Denali;Mount Logan;Pico de Orizaba;Mount Foraker",
+            "correctAnswer": 1,
+            "explanation": "Mount Denali (formerly known as Mount McKinley) is found in Alaska and measures 20,310 ft about sea level.",
+            "source": "https://en.wikipedia.org/wiki/List_of_the_highest_major_summits_of_North_America"
+        },
+        {
+            "questionnumber": 9,
+            "area": "North America",
+            "question": "Alaska is geographically closest to which of the following?",
+            "answers": "Washington State;Washington, DC;Russia;Manitoba, Canada",
+            "correctAnswer": 3,
+            "explanation": "Alaska is approximately 55 miles away from Washington State, 1880 miles away from the Canadian province of Manitoba, and a whopping 4,244 miles away from Washington, DC. Therefore, with Russian island Big Diomede just about 3 miles away from Alaskan island Little Diomede, Alaska is closer to Russia than the rest of its fellow states.",
+            "source": "https://www.getawaycouple.com/how-far-is-russia-from-alaska/"
+        }
+    ],
+    "Utah": [
+        {
+            "questionnumber": 1,
+            "area": "Utah",
+            "question": "What is the state bird of Utah?",
+            "answers": "American goldfinch;Northern flicker;California gull;Blue jay",
+            "correctAnswer": 3,
+            "explanation": "It's strange, we know. Utah's state bird is, in fact, native to California! The sea gull was appointed as such in 1955 by Utah state legislation, most likely in commemoration of how gulls saved the crops of Utah farmers from locust swarms in 1848. Here is how Orson F. Whitney described the miracle: \"great flocks of gulls appeared, filling the air with their white wings and plaintive cries, and settled down upon the half-ruined fields. fields. All day long they gorged themselves, and when full, disgorged and feasted again, the white gulls upon the black crickets, list hosts of heaven and hell contending, until the pests were vanquished and the people were saved.\" Pretty neat, right?",
+            "source": "https://onlinelibrary.utah.gov/utah/symbols/bird/"
+        },
+        {
+            "questionnumber": 2,
+            "area": "Utah",
+            "question": "What percentage of Utah is Mormon?",
+            "answers": "49%;55%;66%;78%",
+            "correctAnswer": 3,
+            "explanation": "According to the Church's newsroom, there are 2,161,526 members living in Utah, who make up just over 66% of Utah's population.",
+            "source": "https://newsroom.churchofjesuschrist.org/facts-and-statistics/state/utah"
+        },
+        {
+            "questionnumber": 3,
+            "area": "Utah",
+            "question": "Which of the following options correctly list Utah's Mighty Five national parks?",
+            "answers": "Arches, Bryce Canyon, Zion, Canyonlands, Great Basin;Arches, Zion, Canyonlands, Great Basin, Capitol Reef;Arches, Bryce Canyon, Canyonlands, Capitol Reef, Dark Canyon;Arches, Bryce Canyon, Zion, Canyonlands, Capitol Reef",
+            "correctAnswer": 4,
+            "explanation": "Arches, Bryce Canyon, Canyonlands, Capitol Reef, and Zion are known as the Mighty Five National Parks of Utah. As for the other options: Great Basin National Park is actually in Nevada, and Dark Canyon Wilderness, while found in Utah, is classified as a designated Wilderness Area.",
+            "source": "https://www.utah.com/destinations/national-parks/"
+        },
+        {
+            "questionnumber": 4,
+            "area": "Utah",
+            "question": "Fry sauce (ketchup + mayo -- you know the stuff) originated in Utah.",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "We didn't believe it ourselves at first, but fry sauce was NOT invented in Utah. Though fry sauce was popularized in Utah around the 1940-50's, the first recorded appearance of the sauce appears in a 1900 New Orleans cookbook on page 27, where it instructs readers to combine equal parts of mayonnaise and \"tomato catsup\" and serve it cold over lettuce. Personally, we prefer it on burgers, but maybe that's just us!",
+            "source": "https://en.wikipedia.org/wiki/Fry_sauce"
+        },
+        {
+            "questionnumber": 5,
+            "area": "Utah",
+            "question": "Salt Lake City is home to the leading manufacturer of which of the following products?",
+            "answers": "Rubber chickens;Jell-O mix;Aluminium cans;Wedding dresses",
+            "correctAnswer": 1,
+            "explanation": "Despite the many weddings and the prevalence of food storage in Utah, neither wedding dresses nor aluminium cans is the correct answer to this question; and, even though Utah is practically synonymous with jello salads, the mix itself isn't made here, either. However, Salt Lake City is home to Loftus Novelty, the leading manufacturer of rubber chickens in the US. How fun is that?!",
+            "source": "https://www.loftus.com/pages/about-us"
+        },
+        {
+            "questionnumber": 6,
+            "area": "Utah",
+            "question": "Salt Lake City used to be named Great Salt Lake City.",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "First named Great Salt Lake City, the illustrious SLC was renamed in 1868. Fun fact: Salt Lake City is the only American state capitol with three words in its name!",
+            "source": "https://www.britannica.com/place/Salt-Lake-City"
+        },
+        {
+            "questionnumber": 7,
+            "area": "Utah",
+            "question": "In Logan, Utah, it is illegal to throw rocks.",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "According to the Logan, UT Code of Ordinances, \"It is unlawful for any person to throw, cast or put into, drop and leave in any street or public place within the city limits of this city, any stones, gravel, dirt, manure or garbage\" (12.04.150). Go figure.",
+            "source": "https://codelibrary.amlegal.com/codes/loganut/latest/logan_ut/0-0-0-6339#JD_12.04.150"
+        },
+        {
+            "questionnumber": 8,
+            "area": "Utah",
+            "question": "How many operating temples are currently open in Utah?",
+            "answers": "10;14;17;21",
+            "correctAnswer": 3,
+            "explanation": "As of October 2022, there are 17 operating temples in Utah, with 11 others that have been either announced or are under construction.",
+            "source": "https://en.wikipedia.org/wiki/List_of_temples_of_the_Church_of_Jesus_Christ_of_Latter-day_Saints"
+        },
+        {
+            "questionnumber": 9,
+            "area": "Utah",
+            "question": "Throwing snowballs is a fineable offense in Provo, Utah.",
+            "answers": "True;False",
+            "correctAnswer": 1,
+            "explanation": "Whoever wrote this law never won a snowball fight when they were a kid and carried that (ice) chip on their shoulder for the rest of their life. Provo City Code states that \"Every person who shall willfully or carelessly within the limits of this City throw any stone, stick, snowball or other missile whereby any person shall be hit, or any window broken or other property injured or destroyed\" will be guilty of a misdemeanor (9.14.100). I don't know if the $50 fine applies to the whole altercation or to each snowball individually, but if the latter is true, I owe the city of Provo about as much money as I owe BYU. But, unlike a certain legislator, I won. So worth it.",
+            "source": "https://provo.municipal.codes/Code/9.14.080"
         }
     ],
     "Africa": [
@@ -59,7 +164,8 @@
             "question": "There are 23 countries in Africa",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent."
+            "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent.",
+            "source": "https://www.worldometers.info/geography/how-many-countries-in-africa/#:~:text=There%20are%2054%20countries%20in,the%20United%20Nations%20official%20statistics)."
         },
         {
             "questionnumber": 2,
@@ -85,7 +191,8 @@
             "question": "What kind of animal does not exist naturally in the African Continent?",
             "answers": "Gorillas;Alligators;Honey badgers;Abyssinian Lions;Aardvarks;Cape Buffalo;Penguins;Wildebeest",
             "correctAnswer": 2,
-            "explanation": "Only crocodiles are native to African countries. Alligators are only found in North America. The diverse terrain found in Africa hosts a variety of animals, including penguins, gorillas, aardvarks, etc. "
+            "explanation": "Only crocodiles are native to African countries. Alligators are only found in North America. The diverse terrain found in Africa hosts a variety of animals, including penguins, gorillas, aardvarks, etc. ",
+            "source": "https://www.travelsafe-abroad.com/alligators-in-africa/#:~:text=You%20may%20be%20surprised%20to,What%20is%20this%3F&text=The%20only%20two%20places%20on,such%20as%20the%20Nile%20Crocodile."
         },
         {
             "questionnumber": 5,
@@ -93,7 +200,8 @@
             "question": "True or False: Only three countries practice monarchy in the African continent",
             "answers": "True;False",
             "correctAnswer": 1,
-            "explanation": "Only Eswatini, Lesotho, and Morocco practice absolute monarchy. The rest practice republicanism to a degree."
+            "explanation": "Only Eswatini, Lesotho, and Morocco practice absolute monarchy. The rest practice republicanism to a degree.",
+            "source": "https://en.wikipedia.org/wiki/Monarchies_in_Africa"
         },
         {
             "questionnumber": 6,
@@ -102,7 +210,8 @@
             "answers": "Left is in the US and the Right is in Africa;Left is in Africa and Right is in the US",
             "correctAnswer": 1,
             "explanation": "There is a misconception and a lot of misinformation that the entirety of the African continent is underdeveloped when many of its nations are currently the fastest developing in the world. ",
-            "source": "https://www.youtube.com/watch?v=AHO1a1kvZGo"
+            "source": "https://www.youtube.com/watch?v=AHO1a1kvZGo",
+            "picture": "cool picture"
         },
         {
             "questionnumber": 7,
@@ -110,13 +219,13 @@
             "question": "Which services are not available in the African continent? ",
             "answers": "Wifi;Streaming Services;Trains;Waterparks;Escalators;Inhalers;Menstrual Products;Bungee Jumping;Streaming Services and Menstrual Products;Waterparks and Trains;Escalators and Inhalers;None of the above",
             "correctAnswer": 12,
-            "explanation": "It is true that there are many countries in Africa that are underdeveloped and need significant changes in infrastructure and medicine. However, there are many things that are developing fast that a lot of the world does not recognize. "
+            "explanation": "It is true that there are many countries in Africa that are underdeveloped and need significant changes in infrastructure and medicine. However, there are many things that are developing fast that a lot of the world does not recognize. Additionally, there are many stereotypes and misinformation that insinuate that Africa has no technology, infrastructure, or advanced development. "
         },
         {
             "questionnumber": 8,
             "area": "Africa",
             "question": "Which of the following has the most accurate description of the ecosystem/s of Africa?",
-            "answers": "Mostly Desert;Mostly Rainforest;Mostly Savannah grasslands;Desert and savannah grasslands;Desert and mountains;Coastal environments, desert and savannah grasslands;All of the above",
+            "answers": "Mostly Desert;Mostly Rainforest;Mostly Savannah grasslands;Desert and savannah grasslands;Desert and mountains;Coastal environments, desert and savannah grasslands; A mix of Desert, Rainforest, Savannah grasslands, Mountains, and Coastal environments ",
             "correctAnswer": 7,
             "explanation": "Africa has five main kinds of ecosystems: coastal environments, deserts and semideserts, mountain environments, savanna grasslands, and forests. There is a lot of misinformation that Africa is all Savannah or desert when it has a diverse range of ecosystems, even among its countries.",
             "source": "https://geography.name/ecosystems/"
@@ -127,7 +236,8 @@
             "question": "In Southern Africa, there is a term that describes going out on a drive where wildlife viewing is the main focus of the trip. What is it?",
             "answers": "Gamedrive;Bushviewing;Safari;Savannah Excursion ",
             "correctAnswer": 1,
-            "explanation": "The difference between a safari and a game drive is that a safari means the whole trip or itinerary and a game drive is an excursion part of that safari itinerary where wildlife viewing is the main focus of the trip. For example; you are going on a safari for seven days, which includes 8 game drives. People commonly misuse the word Safari for what is only called a Gamedrive in Southern Africa."
+            "explanation": "The difference between a safari and a game drive is that a safari means the whole trip or itinerary and a game drive is an excursion part of that safari itinerary where wildlife viewing is the main focus of the trip. For example; you are going on a safari for seven days, which includes 8 game drives. People commonly misuse the word Safari for what is only called a Gamedrive in Southern Africa.",
+            "source": "https://ourplanetinmylens.com/travel/african-safari/what-is-a-game-drive/#:~:text=The%20difference%20between%20a%20safari,which%20includes%208%20game%20drives."
         },
         {
             "questionnumber": 10,
@@ -135,6 +245,7 @@
             "question": "Which animals are considered to be a part of the famous “Big Five”?",
             "answers": "Elephant, Hippopotamus, Rhinoceros, Giraffe, and Lion;Zebra, Giraffe, Lion, Hippopotamus, and Elephant;Leopard, Lion, Cheetah, Rhinoceros, Hippocampus;Rhinoceros, Elephant, Lion, Cape Buffalo, and Leopard ",
             "correctAnswer": 4,
+            "explanation": "The Big Five game animals are the lion, leopard, black rhinoceros, African bush elephant, and African buffalo. They are examples of charismatic megafauna, featuring prominently in popular culture, and are among the most famous of Africa's large animals. The term was coined by big-game hunters, and refers to the five most difficult animals in Africa to hunt on foot, but is now more widely used by game viewing tourists and safari tour operators.",
             "source": "https://en.m.wikipedia.org/wiki/Big_five_game"
         },
         {
@@ -142,7 +253,9 @@
             "area": "Africa",
             "question": "Where is Zambia located?",
             "answers": "Western Africa;Northern Africa;Southern Africa;Central Africa;Eastern Africa ",
-            "correctAnswer": 3
+            "correctAnswer": 3,
+            "explanation": "Zambia is considered a Southern African country. Lusaka is the Capital of Zambia and it is known for its beautiful wild life and for its natural Wonder, Victoria Falls. ",
+            "source": "https://en.wikipedia.org/wiki/Zambia"
         }
     ],
     "Middle East": [
@@ -152,7 +265,7 @@
             "question": "Why is the Middle East referred to as \"the crossroads of the world\"?",
             "answers": "The mountain ranges have a unique cross pattern;It is connected to the story of Moses and how he used the Middle East to cross into the wilderness;The Middle East connects three continents;the Middle East includes a diverse range of coutnries of many languages and peoples",
             "correctAnswer": 3,
-            "explanation": "The Middle East connects the three continents of Asia, Africa, and Europe",
+            "explanation": "The Middle East connects the three continents of Asia, Africa, and Europe.",
             "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
         },
         {
@@ -170,7 +283,7 @@
             "question": "Roughly 60% of the population in the Middle East is___",
             "answers": "Under 25 years old;Between 30 and 40 years old;Over the age of 50;Over 70 years old",
             "correctAnswer": 1,
-            "explanation": "People do not know that a significant amounf of the polulation in the Middle East are quite young. ",
+            "explanation": "People do not know that a significant amount of the polulation in the Middle East are quite young and many would most likely assume because of stereotypes that people are a little older. This demographic trend is the result of high birth rates and improving healthcare, which have led to a significant increase in the region's population over the past few decades. The birth rate in the Middle East varies across countries and regions, so there is no one average birth rate for the entire region. However, in general, many countries in the Middle East have high birth rates compared to other parts of the world. According to the World Bank, the average birth rate in the Middle East and North Africa region in 2020 was 23.6 births per 1,000 people, which is higher than the global average of 18.6 births per 1,000 people.",
             "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
         },
         {
@@ -197,7 +310,7 @@
             "question": "Which of the following best describes holidays within Islam:",
             "answers": "Holidays in Islam are all about Muhammad;Islam celebrates the same holidays as Christians and Jews;The Islamic calendar is based on lunar cycles which determines when they will celebrate their holidays every year;Islamic holidays are all centered around prayer and animal sacrifice",
             "correctAnswer": 3,
-            "explanation": "The Islamic calendar is based on lunar cycles, unlike the Gregorian and other calendars that are based on the Earth?s rotation around the sun.",
+            "explanation": "The Islamic calendar is based on lunar cycles, unlike the Gregorian and other calendars that are based on the Earth's rotation around the sun.",
             "source": "https://www.isu.edu/history/student-opportunities/class-projects/middle-east-facts/#:~:text=A%20variety%20of%20countries%20make,United%20Arab%20Emirates%2C%20and%20Yemen."
         },
         {
@@ -206,17 +319,17 @@
             "question": "Which of the following animals is not native to Middle Eastern countries?",
             "answers": "Striped Hyena;Camels;Arabian Oryx;Vervet monkeys;Fennec Fox;Desert Hedgehog ",
             "correctAnswer": 4,
-            "explanation": "Vervet monkeys are native to Southern Africa and Eastern Africa, not any middle Eastern Countries",
+            "explanation": "Vervet monkeys are native to Southern Africa and Eastern Africa, not any middle Eastern Countries. There are various forms of wild life that live in the Middle East, including Deser Hedgehogs! Many would assume that because much of the Middle East is desert that there is no lifeform. ",
             "source": "https://www.visitsaudi.com/en/do/lifestyle/wildlife"
         },
         {
             "questionnumber": 8,
             "area": "Middle East",
-            "question": "True or False: In 2/3 of Middle Eastern Countries, more women attend university than men",
+            "question": "True or False: In Bahrain and Qatar, women's enrollment rates in universities are higher than men's",
             "answers": "True;False",
             "correctAnswer": 1,
-            "explanation": "It is a common misconception to assume that all women in the Middle East have no rights and no education.",
-            "source": "https://cmes.arizona.edu/sites/cmes.arizona.edu/files/Fun%20Facts%20about%20the%20Middle%20East.pdf"
+            "explanation": "While it is true that there is significant variation accross countries in the middles east, there are some countries that have a high enrollment of women in university and school. This challenges the stereotype and misinfomration that all women in the middle east have no rights and no education. ",
+            "source": "ChatGPT"
         },
         {
             "questionnumber": 9,
@@ -224,7 +337,7 @@
             "question": "Which of the following countries produces the most oil, as of 2018 to present day?",
             "answers": "United States;Saudi Arabia;Russia;UAE;Canada",
             "correctAnswer": 1,
-            "explanation": "Saudi Arabia is the second highest country that produces oil, and it is the only Middle Eastern countr in the top five. ",
+            "explanation": "Saudi Arabia is the second highest country that produces oil, and it is the only Middle Eastern country in the top five. ",
             "source": "https://www.nasdaq.com/articles/what-countries-are-the-top-producers-of-oil"
         },
         {
@@ -241,25 +354,25 @@
         {
             "questionnumber": 1,
             "area": "Oceania",
-            "question": "Which one is the continent: Oceania or Australia?",
+            "question": "What is the name of the continent: Oceania or Australia?",
             "answers": "Oceania;Australia;Both",
             "correctAnswer": 3,
-            "explanation": "This question is tricky. Technically, both are correct. In many continents, the educational system says that Oceania is the continent; however, in the US, it is a geographical region and thus, Australia is the continent.",
+            "explanation": "This question is tricky. Technically, both are correct. In many continents, the educational system says that Oceania is the continent; however, in the US, it is a geographical region and thus, Australia is classified as the continent.",
             "source": "https://education.nationalgeographic.org/resource/oceania-physical-geography/"
         },
         {
             "questionnumber": 2,
             "area": "Oceania",
-            "question": "People ride kangaroos to school in Australia",
+            "question": "People ride kangaroos to school in Australia.",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "Kangaroos and koalas rarely come into the cities, but if you venture inland to the country communities you should be able to find some. Just don’t try to pat them.",
+            "explanation": "Kangaroos and koalas rarely come into the cities, but if you venture inland to the country communities you should be able to find some. Just don’t try to pet them.",
             "source": "https://theplanetd.com/gday-some-aussie-stereotypes/"
         },
         {
             "questionnumber": 3,
             "area": "Oceania",
-            "question": "In Australia, you will find the most lethal, deadly creatures.",
+            "question": "The most lethal, deadly creatures on Earth are found in Australia.",
             "answers": "True;False",
             "correctAnswer": 1,
             "explanation": "Yes, there are many deadly animals in Australia. That does not mean you will die if you go there! You can be one of the 1-2 people that are eaten by a crocodile in Australia.",
@@ -268,16 +381,16 @@
         {
             "questionnumber": 4,
             "area": "Oceania",
-            "question": "What's the capital of Australia?",
+            "question": "What is the capital of Australia?",
             "answers": "Sydney;Melbourne;Canberra;Brisbane",
             "correctAnswer": 3,
             "explanation": "Sydney and Melbourne are the most known cities in Australia. However, the capital is Canberra!",
-            "source": "https:"
+            "source": "https://theplanetd.com/gday-some-aussie-stereotypes/"
         },
         {
             "questionnumber": 5,
             "area": "Oceania",
-            "question": "Australians swear a lot",
+            "question": "Australians swear a lot (like, a lot).",
             "answers": "True;False",
             "correctAnswer": 1,
             "explanation": "Australians do swear a lot. More than the majority. However, this is due to swears being in their advertising, literature, and many aspects of their lives. It is more normalized than in the US and UK, which is why it seems like a lot to us.",
@@ -286,16 +399,16 @@
         {
             "questionnumber": 6,
             "area": "Oceania",
-            "question": "Aboriginal Australians are nomadic",
+            "question": "Aboriginal Australians are nomadic.",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "They are just regular people. Movies and pop culture tends to depict them as people who do the hula dance, lack complex laws, and don't behave. ",
+            "explanation": "They are just regular people. Movies and pop culture tends to depict them as people who lack complex laws as well as permanant homes, but this is incorrect. ",
             "source": "https://www.creativespirits.info/aboriginalculture/people/stereotypes-prejudice-of-aboriginal-australia"
         },
         {
             "questionnumber": 7,
             "area": "Oceania",
-            "question": "How many countries are in Australia (continent)?",
+            "question": "How many countries are found within the continent of Australia?",
             "answers": "3;11;23;15",
             "correctAnswer": 1,
             "explanation": "There are just three in the continent of Australia: Australia, Papua New Guinea, and New Zealand. In Oceania, there are many regions, countries, and territories; these include the three countries mentioned above.",
@@ -304,7 +417,7 @@
         {
             "questionnumber": 8,
             "area": "Oceania",
-            "question": "Cannibalism is practiced a lot Papua New Guinea",
+            "question": "Cannibalism is commonly practiced in Papua New Guinea.",
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "While it happened in the past, it is not the case these days. Yes, there are some native tribes that may do this; however, that is not the case for the majority of the country.",
@@ -313,20 +426,65 @@
         {
             "questionnumber": 9,
             "area": "Oceania",
-            "question": "Samoans are all wrestlers ",
+            "question": "Samoans are all wrestlers.",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "Many famous Samoans are known for wrestling, which results in the stereotype that all of them are big, muscular men who are born for wrestling. ",
+            "explanation": "Many famous Samoans are known for wrestling, which results in the stereotype that all of them are big, muscular men who are born for wrestling.",
             "source": "https://tvtropes.org/pmwiki/pmwiki.php/NationalStereoTypes/Oceania"
         },
         {
             "questionnumber": 10,
             "area": "Oceania",
-            "question": "How many countries are in the Pacific Islands",
+            "question": "How many countries are in the Pacific Islands?",
             "answers": "15;7;11;9",
             "correctAnswer": 1,
-            "explanation": "Since the Pacific Islands are comprised of thousands of islands and territories, the number of countries in this group is often up for debate. However, according to a World Health Organization report, there are 15 countries in the Pacific Island",
+            "explanation": "Since the Pacific Islands are comprised of thousands of islands and territories, the number of countries in this group is often up for debate. However, according to a World Health Organization report, there are 15 countries in the Pacific Island.",
             "source": "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjF9qzGwaX-AhUuJEQIHc2_CBUQFnoECAsQAw&url=https%3A%2F%2Fwww.goodhousekeeping.com%2Flife%2Fa36433344%2Fpacific-island-countries%2F&usg=AOvVaw1b50aVe2weXSo3HFhU3Iex"
+        },
+        {
+            "questionnumber": 11,
+            "area": "Oceania",
+            "question": "Which of the following fruits is native to Hawaii?",
+            "answers": "Pineapple;Rambutan;Papaya;Passionfruit;Guava;None",
+            "correctAnswer": 6,
+            "explanation": "While all of these fruits can be found on Hawaii (and are delicious), none of them are native to the islands. Pineapple, made synonymous with the island chain by the PR and plantations of James Dole's Hawaiian Pineapple Company in the early 1900's, was actually brought over from South America. Passionfruit and guava are both from South America, as well. Rambutan is originally from South Asia, and papaya originated in Mesoamerica. Wherever they come from, they all taste great!",
+            "source": "https://www.baconismagic.ca/united-states/fruit-in-hawaii/"
+        },
+        {
+            "questionnumber": 12,
+            "area": "Oceania",
+            "question": "How many islands does Samoa have?",
+            "answers": "7;9;12;15",
+            "correctAnswer": 2,
+            "explanation": "Samoa is comprised of nine islands, and is divided geopolitically into two parts: Samoa (formerly known as Western Samoa) and the relatively small American Samoa (formerly known as Eastern Samoa).",
+            "source": "https://www.polynesia.com/wp-content/uploads/2020/04/Islands-of-Samoa.pdff"
+        },
+        {
+            "questionnumber": 13,
+            "area": "Oceania",
+            "question": "What percentage of Tonga’s islands is inhabited?",
+            "answers": "21%;42%;68%;100%",
+            "correctAnswer": 1,
+            "explanation": "Only 36 of Tonga's 169 islands have .",
+            "source": "https://en.wikipedia.org/wiki/Geography_of_Tonga"
+        },
+        {
+            "questionnumber": 14,
+            "area": "Oceania",
+            "question": "What is the official currency of New Zealand?",
+            "answers": "British Pound (GBP);Australian Dollar (AUD);New Zealand Dollar (NZD);Euro (EUR)",
+            "correctAnswer": 3,
+            "explanation": "The official currency of New Zealand is the New Zealand Dollar.",
+            "source": "https://en.wikipedia.org/wiki/New_Zealand_dollar"
+        },
+        {
+            "questionnumber": 15,
+            "area": "Oceania",
+            "question": "Which island in Oceania is the world's smallest island state by land area and population?",
+            "answers": "Nauru;Tonga;Tuvalu;Marshall Islands",
+            "correctAnswer": 1,
+            "explanation": "The smallest independent country by land area and population in Oceania is Nauru. Nauru is a small island nation located in Micronesia in the Pacific Ocean. It has a total land area of only about 21 square kilometers (8.1 square miles) and a population of around 10,000 people.",
+            "source": "https://en.wikipedia.org/wiki/Nauru"
         }
     ],
     "Central/South America": [
@@ -417,31 +575,299 @@
             "correctAnswer": 2,
             "explanation": "People tend to categorize South and Central Americans into one group: Mexicans. While we share some traits, the histories are different from each country, and thus, the background and experiences.",
             "source": "https://www.verywellmind.com/6-harmful-stereotypes-about-latin-americans-5113358"
+        },
+        {
+            "explanation": " "
         }
     ],
     "South/Southeast Asia": [
         {
             "questionnumber": 2,
-            "area": "Asia",
+            "area": "South/Southeast/East Asia",
+            "question": "All Asians have at least one strict parent.",
+            "answers": "True;False"
+        },
+        {
+            "questionnumber": 1,
+            "area": "South/Southeast/East Asia",
+            "question": "Is this Mt. Everest?",
+            "answers": "ABSOLUTELY, look at all the clouds!!; Nah.",
+            "correctAnswer": 2,
+            "picture": "awesome picture loading..."
+        },
+        {
+            "questionnumber": 2,
+            "area": "South/Southeast/East Asia",
             "question": "Which is the most ethnically diverse country in Asia?",
             "answers": "Indonesia;India;Nepal;China",
-            "correctAnswer": 2
+            "correctAnswer": 1
         },
         {
             "questionnumber": 3,
-            "area": "Asia",
+            "area": "South/Southeast/East Asia",
             "question": "Out of 2,300 languages in Asia, Mandarin is the most widely spoken language. What percentage of people in Asia speak Mandarin?",
             "answers": "45%;51%;63%;79%",
-            "correctAnswer": 1,
+            "correctAnswer": 2,
             "source": "https://social-policy.org.uk/spa-blog/ethnicity-and-inequality-in-southeast-asia/#:~:text=In%20our%20session%2C%20four%20participants,(around%201%2C300%20ethnic%20groups)"
         },
         {
             "questionnumber": 4,
-            "area": "Asia",
+            "area": "South/Southeast/East Asia",
             "question": "Unknown sources claim that America is the only country to be silly and have paper bills. As of 2023, GDP wise, which is the richest country in Asia?",
             "answers": "India;Japan;China;Indonesia",
-            "correctAnswer": 2,
+            "correctAnswer": 4,
             "source": "https://www.jumpspeak.com/blog/whats-the-most-spoken-language-in-asia-you-may-know-the-answer"
+        },
+        {
+            "questionnumber": 5,
+            "area": "South/Southeast/East Asia",
+            "question": "How many countries out of 48 Asian countries recognize English as their official language?",
+            "answers": "None of the;9;15;5",
+            "correctAnswer": 4,
+            "explanation": "The countries are: Nepal, India, Philippines, Singapore,  and ",
+            "source": "https://www.worldatlas.com/articles/english-speaking-countries-in-asia.html#:~:text=English%20in%20Asia&text=India%2C%20Nepal%2C%20Pakistan%2C%20Philippines,English%20in%20an%20official%20capacity"
+        },
+        {
+            "questionnumber": 6,
+            "area": "South/Southeast/East Asia",
+            "question": "Where was fortune cookies invented?",
+            "answers": "Beijing, China;Thailand;California, US;Japan",
+            "correctAnswer": 4
+        },
+        {
+            "questionnumber": 7,
+            "area": "South/Southeast/East Asia",
+            "question": "What percent of world's rice is consumed in Asia?",
+            "answers": "60%;50%;90%;73%",
+            "correctAnswer": 3
+        },
+        {
+            "questionnumber": 8,
+            "area": "South/Southeast/East Asia",
+            "question": "Which country has the highest death rate due to car accidents?",
+            "answers": "Dominican Republic;Thailand;Venezuela;Iran",
+            "correctAnswer": 1,
+            "source": "https://www.driversdomainuk.com/the-worlds-worst-drivers-by-country/"
+        },
+        {
+            "questionnumber": 9,
+            "area": "South/Southeast/East Asia",
+            "question": "Which country has the most booming martial arts industry?",
+            "answers": "China;USA;Japan;Nepal",
+            "correctAnswer": 2,
+            "source": "https://gymdesk.com/blog/martial-arts-industry-statistics/"
+        },
+        {
+            "questionnumber": 10,
+            "area": "South/Southeast/East Asia",
+            "question": "Which type of countries given below have the lowest crime rate?",
+            "answers": "Predominantly Muslim;Predominantly Buddhist;Predominantly Christian (all denominations);Predominantly Atheist",
+            "source": "https://www.nairaland.com/121066/predominantly-atheist-countries-lowest-crime"
+        },
+        {
+            "questionnumber": 11,
+            "area": "South/Southeast/East Asia",
+            "question": "Out of Top 10 tallest mountains, which highest mountains are located in Nepal  (home to Mt.Everest)? ",
+            "answers": "All of Top 10 (obvi);Top 4;Top 8;Top 5",
+            "correctAnswer": 3
+        },
+        {
+            "questionnumber": 12,
+            "area": "South/Southeast/East Asia",
+            "question": "This picture is the reflection of the popular mountain Machapucchare (Fishtail mountain) on the Phewa Lake in Nepal. How far is the distance between this mountain and the lake?",
+            "answers": "25 km;100 km;250 km;60 km",
+            "correctAnswer": 1,
+            "picture": "awesome picture 2.0 loading..."
+        },
+        {
+            "questionnumber": 13,
+            "area": "South/Southeast/East Asia",
+            "question": "An Indian also holds the title of the world's longest moustache. How long was it?\n",
+            "answers": "10 ft;12.5 ft;8 ft;15 ft",
+            "correctAnswer": 2,
+            "explanation": "Ram Singh Chauhan holds the title for the longest moustache in the world at 12.5 ft."
+        }
+    ],
+    "Western Europe": [
+        {
+            "questionnumber": 1,
+            "area": "Western Europe",
+            "question": "What percent of people in Western Europe are able to converse in one or more foreign languages? ",
+            "answers": "6;18;36;54",
+            "correctAnswer": 4,
+            "explanation": "54% of Europeans are able to converse in one or more foreign languages and 10% of Europeans are impressively able to converse in at least three or more foreign languages.",
+            "source": "https://www.responsivetranslation.com/blog/this-is-not-a-joke-how-many-languages-does-a-european-speak/#:~:text=54%25%20of%20Europeans%20are%20able,three%20or%20more%20foreign%20languages."
+        },
+        {
+            "questionnumber": 2,
+            "area": "Western Europe",
+            "question": "Which of the following are not considered to be a national dish of England or English food?",
+            "answers": "Fish and Chips;Yorkshire Pudding;Haggis;Chicken Tikka Masala;Toad in the hole;Bangers and mash",
+            "correctAnswer": 3,
+            "explanation": "Haggis is the national dish of Scotland. The main two national dishes of England are Fish and Chips and Chicken Tikka Masala, which were favorites of Queen Elizabeth. ",
+            "source": "https://jsec.nato.int/about-us/jsec-cuisine-whats-cooking/the-queens-official-birthday-chicken-tikka-masala-from-the-united-kingdom#:~:text=As%20well%20as%20there%20is,and%20Irish%20Stew%20in%20Ireland."
+        },
+        {
+            "questionnumber": 3,
+            "area": "Western Europe",
+            "question": "True or False: There is one car for every two people in the EU ",
+            "answers": "TRUE;FALSE",
+            "correctAnswer": 1,
+            "explanation": "In 2020, there were 0.53 passenger cars per inhabitant in the EU. In terms of passenger cars per 1 000 inhabitants, eastern Member States registered the lowest numbers, while the western Member States recorded higher rates but with some marked regional disparities.",
+            "source": "https://ec.europa.eu/eurostat/web/products-eurostat-news/-/ddn-20220727-1"
+        },
+        {
+            "questionnumber": 4,
+            "area": "Western Europe",
+            "question": "What is the national animal of Scotland?",
+            "answers": "Unicorn;Horse;Wild Boar;Scottish Wildcar;Adder Snake;Black Bear",
+            "correctAnswer": 1,
+            "explanation": "The unicorn is first mentioned in a long lost book about India about 400 BC and eventually is adopted as Scotland's national animal in the 15th century and can now be seen everywhere.",
+            "source": "https://www.nms.ac.uk/explore-our-collections/stories/global-arts-cultures-and-design/unicorn/#:~:text=The%20unicorn%20is%20first%20mentioned,can%20now%20be%20seen%20everywhere."
+        },
+        {
+            "questionnumber": 5,
+            "area": "Western Europe",
+            "question": "Belgium is famous for first making which of the following:",
+            "answers": "The Bike;the Windmill;French Fries;Tea;Chocolate; The Tram; Jam  ",
+            "correctAnswer": 3,
+            "explanation": "Despite the common name of this dish (and the fact that France has given the world many famous foods, from the baguette to the soufflé), the French fry is unequivocally Belgian, at least according to Albert Verdeyen, chef and co-author of Carrément Frites, which charts the history of the fry.",
+            "source": "https://www.bbc.com/travel/article/20180730-can-belgium-claim-ownership-of-the-french-fry#:~:text=Despite%20the%20common%20name%20of,the%20history%20of%20the%20fry."
+        },
+        {
+            "questionnumber": 6,
+            "area": "Western Europe",
+            "question": "Which of the following countries is famous for proudly wearing orange to represent their country, even though orange is not on their flag?",
+            "answers": "Spain; the Netherlands; Austria; Swizerland",
+            "correctAnswer": 2,
+            "explanation": "The orange color that's present throughout much of Dutch culture is a nod to the royal family, which is made up of members of the House of Orange. The dynasty dates back to 1544 when William of Orange inherited the estate and title at the age of 11.",
+            "source": "https://www.nbclosangeles.com/news/sports/world-cup-2022/why-does-the-netherlands-wear-orange/3047486/#:~:text=The%20orange%20color%20that's%20present,at%20the%20age%20of%2011."
+        },
+        {
+            "questionnumber": 7,
+            "area": "Western Europe",
+            "question": "Which country has the most castles in the world?",
+            "answers": "Germany;Spain;England;Wales;Scotland;Italy;France;Austria",
+            "correctAnswer": 1,
+            "explanation": "Some 25,000 castles, palaces and mansion houses bear witness to Germany's history: from splendid, perfectly preserved landmarks to ruined reminders of former glory.",
+            "source": "https://www.twinkl.com/homework-help/history-homework-help/castles-facts-for-kids/which-country-has-the-most-castles#:~:text=Wales,to%20be%20explored%20by%20visitors."
+        },
+        {
+            "questionnumber": 8,
+            "area": "Western Europe",
+            "question": "True or False: Geographically there are 6 Scandinavian countries, which are Denmark, Sweden, Norway, Iceland, Finland, and The Faroe Islands. ",
+            "answers": "TRUE;FALSE",
+            "correctAnswer": 2,
+            "explanation": "There are only three countries on the Scandinavian Peninsula which, according to their geography, are Norway, Sweden, and Finland. Other countries such as Denmark and Iceland are usually culturally grouped in with Scandinavia but are technically just a part of the Nordic region of Western Europe.  ",
+            "source": "https://www.scandinaviastandard.com/where-is-scandinavia-a-guide-to-the-scandinavian-countries/#:~:text=How%20many%20countries%20in%20Scandinavia,Finland%20and%20The%20Faroe%20Islands."
+        },
+        {
+            "questionnumber": 9,
+            "area": "Western Europe",
+            "question": "L'escargot is a famous French food. What is it?",
+            "answers": "Chocolate dessert with strawberries;soup with raw shrimp;cooked snails served in its shell; traditional French breakfast with croissant and hot chocolate",
+            "correctAnswer": 3,
+            "explanation": "escargot, (French: “snail”) any of several species of edible land snails, a delicacy of French cuisine.",
+            "source": "https://www.britannica.com/animal/escargot"
+        },
+        {
+            "questionnumber": 10,
+            "area": "Western Europe",
+            "question": "True or False: Only one language is spoken in Spain, which is Spanish",
+            "answers": "TRUE;FALSE",
+            "correctAnswer": 2,
+            "explanation": "There are five actively spoken languges in Spain: Castilian Spanish, Catalan, Valencian, Basque, and Galician. "
+        }
+    ],
+    "Eastern Europe": [
+        {
+            "questionnumber": 1,
+            "area": "Eastern Europe",
+            "question": "Which country has the worst teeth?",
+            "answers": "Philippines;Poland;India;Bolivia",
+            "correctAnswer": 1,
+            "explanation": "This island nation located in between the South China Sea and the Philippine Sea takes the cake (literally and figuratively) of the worst oral health in the world. The Philippines College of Dentistry found that nearly 90 percent of Filipinos suffer from tooth decay. Another astonishing finding is that nearly 100 percent of children between 3 and 5 years old have cavities. For a country that is less than half the size of Texas, those are some staggering numbers!",
+            "source": "https://www.dentalproductsreport.com/view/5-countries-with-the-worst-oral-health"
+        },
+        {
+            "questionnumber": 2,
+            "area": "Eastern Europe",
+            "question": "27% of people worldwide have blue eyes. What percentage of Estonia, the country with the most blue eyes, have  blue  eyes?",
+            "answers": "23%;51%;89%;67%",
+            "correctAnswer": 3,
+            "explanation": "Top 6 countries with the most number of blue eyes:\n1. Estonia and Finland: 89%\n2. Sweden: 78%\n3. Iceland:  75.5%\n4. Netherlands: approx. 61%\n5. Denmark: approx. 60%",
+            "source": "https://www.worldatlas.com/articles/countries-with-the-most-blue-eyed-people.html#:~:text=Sharing%20the%20rank%20of%20first,its%20population%20with%20blue%20eyes."
+        },
+        {
+            "questionnumber": 3,
+            "area": "Eastern Europe",
+            "question": "What is the national animal of Russia?",
+            "answers": "Common Nightingale;Eurasian Brown Bear;Turul;The Gray Wolf",
+            "correctAnswer": 2,
+            "explanation": "Countries with their national animals:\nRussia: Eurasian Brown Bear\nUkraine: Common Nightingale \nHungary: Turul\nTurkey: The Gray Wolf",
+            "source": "google"
+        },
+        {
+            "questionnumber": 4,
+            "area": "Eastern Europe",
+            "question": "How many US fits in Russia?",
+            "answers": "Almost 2;Less than 1;About 3;1/2",
+            "correctAnswer": 1,
+            "explanation": "Russia is 1.7 times bigger than the US",
+            "source": "https://www.mylifeelsewhere.com/country-size-comparison/russia/united-states#:~:text=Russia%20is%20about%201.7%20times%20bigger%20than%20United%20States.&text=Meanwhile%2C%20the%20population%20of%20United,near%20the%20middle%20of%20Russia."
+        },
+        {
+            "questionnumber": 5,
+            "area": "Eastern Europe",
+            "question": "Which country has the most death due to alcohol per capita?",
+            "answers": "Russia;Belarus;Guatamala;Mongolia",
+            "correctAnswer": 2,
+            "explanation": "Top 5 coutries with highest death due to alcohol per capita:\n1. Belarus\n2. Mongolia\n3. Russia\n4. Guatemala \n5.  Slovenia",
+            "source": "https://www.worldlifeexpectancy.com/cause-of-death/alcohol/by-country/"
+        },
+        {
+            "questionnumber": 6,
+            "area": "Eastern Europe",
+            "question": "Which place experience the warmest (because eastern europe is cold) temperatures?",
+            "answers": "Sochi, Russia;Brest, Belarus;Sandanski, Bulgaria;Budapest, Hungary",
+            "correctAnswer": 4,
+            "explanation": "In Eastern Europe, Bucharest, Romania and Budapest, Hungary are the hot spots, and the only significant cities there with averages above 15.5 °C (60 °F)."
+        },
+        {
+            "questionnumber": 7,
+            "area": "Eastern Europe",
+            "question": "Which country holds the title for most facial hair?",
+            "answers": "India;Germany;Russia;Mongolia",
+            "correctAnswer": 1,
+            "explanation": "Top 4 country with most facial hair:\n1. India\n2. Mexico\n3. Pakistan\n4. Germany",
+            "source": "https://www.news18.com/news/india/hair-its-top-10-moustache-dense-nations-328088.html"
+        },
+        {
+            "questionnumber": 8,
+            "area": "Eastern Europe",
+            "question": "What percentage of European land is used by man-made structures?",
+            "answers": "75%;15%;80%;67%",
+            "correctAnswer": 3,
+            "explanation": "Europe is one of the most intensively used continents on the globe. It has the highest proportion of land (up to  80%) used for settlement, production systems (in particular agriculture and forestry), and infrastructure. ",
+            "source": "https://www.eea.europa.eu/themes/landuse/intro"
+        },
+        {
+            "questionnumber": 9,
+            "area": "Eastern Europe",
+            "question": "Which of the following was the first European city to have electric street lights?",
+            "answers": "Paris, France;Berlin, Germany;London, England;Timisoara, Romania",
+            "correctAnswer": 4,
+            "explanation": "Timisoara, Romania became the first European city with an electric street lighting system on November 12, 1882 when 731 street lamps were turned on to light the citizens' way. Even though the English thought up street lights in 1879, they were part of futuristic electrical experiments and were not permanent.",
+            "source": "https://business-review.eu/featured/first-electric-illuminated-city-in-europe-celebrates-130-years-73251"
+        },
+        {
+            "questionnumber": 10,
+            "area": "Eastern Europe",
+            "question": "What is the national instrument of Bulgaria?",
+            "answers": "Kaba gaida;Mandolin;Birch trumpet;Accordion",
+            "correctAnswer": 1,
+            "explanation": "Bulgaria's national instrument is the kaba gaida, typically heard in Bulgarian folk music. It is a type of bagpipe, but is larger and has lower pitch.",
+            "source": "https://en.wikipedia.org/wiki/Kaba_gaida"
         }
     ]
 }
