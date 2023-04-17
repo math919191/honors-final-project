@@ -42,9 +42,9 @@ function Results(props){
         <div>
             
             <div className="results">
-                <h1>Results</h1>
+                <h1 class="resulttitle">Results</h1>
 
-                <h2>You got {percentCorrect}% correct!</h2>
+                <h2 class="resultminititle">You got {percentCorrect}% correct!</h2>
                 {userAnswers.map((userResponse, index) => (
                     <SingleResult 
                         questionNum={index}

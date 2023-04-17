@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 function Question(props){
 
     
@@ -11,11 +12,11 @@ function Question(props){
     }
 
     return (
-        <div>
-            <h1 className="question">{(props.questionNumber +1) + ". "+ props.question}</h1>
-            <div className="answers">
+        <div class="questiondiv">
+            <h1 class ="question" className="question">{(props.questionNumber +1) + ". "+ props.question}</h1>
+            <div class="answersdiv" className="answers">
                 {props.questionOptions.map((choice, index) => (
-                <div>
+                <div class="answer">
                     <label key={index} class="radio">
                         <input type="radio"
                             name="radio"

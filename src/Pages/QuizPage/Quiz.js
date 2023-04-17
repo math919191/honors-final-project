@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Question } from "./Question";
+import Button from 'react-bootstrap/Button';
 
 function Quiz(props){
     const [currentQuestionNum, setCurrentQuestionNum] = useState(0);
@@ -57,11 +58,13 @@ function Quiz(props){
                     questionNumber = {currentQuestionNum}
                     
                 />
-                <div className="buttons">
-                    <button variant="primary" onClick={()=>changeQuestionNum("next")}>{buttonTitle}</button>{' '}
+                
+                <div class="centerbutton space">
+                <Button variant="primary text-center" onClick={()=>changeQuestionNum("next")}>{buttonTitle}</Button>{' '}
+                </div>
+                
                 </div>
             </div>
-        </div>
     )
 }
 

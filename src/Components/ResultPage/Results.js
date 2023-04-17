@@ -17,7 +17,7 @@ function Results(props){
     
     return (
         <div>
-            <h1>Results</h1>
+            <h1 className="resulttext">Results</h1>
             <div className="results">
                 {userAnswers.map((userResponse, index) => (
                     <SingleResult 

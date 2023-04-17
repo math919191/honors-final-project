@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 export function SingleResult(props){
 
     return (
-        <div className="card result w-50">
+        <div className="card result w-50 indivtext">
             <div className="card-header">
                 Question: {props.questionNum + 1} 
             </div>

@@ -2,10 +2,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px
 }
 
-.result {
-    margin: 20px;
-
+.resulttext {
+    margin: 5%;
+    color: beige;
+    background-color: aqua;
 }
