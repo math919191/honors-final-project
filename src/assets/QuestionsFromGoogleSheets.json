@@ -165,7 +165,9 @@
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent.",
-            "source": "https://www.worldometers.info/geography/how-many-countries-in-africa/#:~:text=There%20are%2054%20countries%20in,the%20United%20Nations%20official%20statistics)."
+            "source": "https://www.worldometers.info/geography/how-many-countries-in-africa/#:~:text=There%20are%2054%20countries%20in,the%20United%20Nations%20official%20statistics).",
+            "picture": "has a picture"
+
         },
         {
             "questionnumber": 2,
@@ -583,13 +585,13 @@
     "South/Southeast Asia": [
         {
             "questionnumber": 2,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "All Asians have at least one strict parent.",
             "answers": "True;False"
         },
         {
             "questionnumber": 1,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Is this Mt. Everest?",
             "answers": "ABSOLUTELY, look at all the clouds!!; Nah.",
             "correctAnswer": 2,
@@ -597,14 +599,14 @@
         },
         {
             "questionnumber": 2,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Which is the most ethnically diverse country in Asia?",
             "answers": "Indonesia;India;Nepal;China",
             "correctAnswer": 1
         },
         {
             "questionnumber": 3,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Out of 2,300 languages in Asia, Mandarin is the most widely spoken language. What percentage of people in Asia speak Mandarin?",
             "answers": "45%;51%;63%;79%",
             "correctAnswer": 2,
@@ -612,7 +614,7 @@
         },
         {
             "questionnumber": 4,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Unknown sources claim that America is the only country to be silly and have paper bills. As of 2023, GDP wise, which is the richest country in Asia?",
             "answers": "India;Japan;China;Indonesia",
             "correctAnswer": 4,
@@ -620,7 +622,7 @@
         },
         {
             "questionnumber": 5,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "How many countries out of 48 Asian countries recognize English as their official language?",
             "answers": "None of the;9;15;5",
             "correctAnswer": 4,
@@ -629,21 +631,21 @@
         },
         {
             "questionnumber": 6,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Where was fortune cookies invented?",
             "answers": "Beijing, China;Thailand;California, US;Japan",
             "correctAnswer": 4
         },
         {
             "questionnumber": 7,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "What percent of world's rice is consumed in Asia?",
             "answers": "60%;50%;90%;73%",
             "correctAnswer": 3
         },
         {
             "questionnumber": 8,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Which country has the highest death rate due to car accidents?",
             "answers": "Dominican Republic;Thailand;Venezuela;Iran",
             "correctAnswer": 1,
@@ -651,7 +653,7 @@
         },
         {
             "questionnumber": 9,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Which country has the most booming martial arts industry?",
             "answers": "China;USA;Japan;Nepal",
             "correctAnswer": 2,
@@ -659,21 +661,21 @@
         },
         {
             "questionnumber": 10,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Which type of countries given below have the lowest crime rate?",
             "answers": "Predominantly Muslim;Predominantly Buddhist;Predominantly Christian (all denominations);Predominantly Atheist",
             "source": "https://www.nairaland.com/121066/predominantly-atheist-countries-lowest-crime"
         },
         {
             "questionnumber": 11,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "Out of Top 10 tallest mountains, which highest mountains are located in Nepal  (home to Mt.Everest)? ",
             "answers": "All of Top 10 (obvi);Top 4;Top 8;Top 5",
             "correctAnswer": 3
         },
         {
             "questionnumber": 12,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "This picture is the reflection of the popular mountain Machapucchare (Fishtail mountain) on the Phewa Lake in Nepal. How far is the distance between this mountain and the lake?",
             "answers": "25 km;100 km;250 km;60 km",
             "correctAnswer": 1,
@@ -681,7 +683,7 @@
         },
         {
             "questionnumber": 13,
-            "area": "South/Southeast/East Asia",
+            "area": "Asia",
             "question": "An Indian also holds the title of the world's longest moustache. How long was it?\n",
             "answers": "10 ft;12.5 ft;8 ft;15 ft",
             "correctAnswer": 2,

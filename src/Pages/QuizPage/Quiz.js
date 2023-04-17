@@ -46,6 +46,17 @@ function Quiz(props){
         return props.questions[currentQuestionNum].answers.split(";");
     }
     
+    function imageExistsForQuestion(currentQuestionNum){
+        let questionJson = props.questions[currentQuestionNum];
+        console.log("questionJson", questionJson)
+
+        if ('picture' in questionJson){
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 
     return (
         <div className="quizContainer">
@@ -56,7 +67,8 @@ function Quiz(props){
                     currAnswer={selectedAnswer}
                     onChange = {(choice) => setSelectedAnswer(choice)} 
                     questionNumber = {currentQuestionNum}
-                    
+                    hasPicture = {imageExistsForQuestion(currentQuestionNum)}
+                    currArea = {props.questions[currentQuestionNum].area}
                 />
                 
                 <div class="centerbutton space">

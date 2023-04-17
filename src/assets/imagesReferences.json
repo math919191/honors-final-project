@@ -1,0 +1,22 @@
+[
+    {
+        "area": "africa",
+        "questionnum": 1,
+        "imagereference": "https://t3.ftcdn.net/jpg/01/07/73/32/360_F_107733254_1mKC2z4XDOwrDqnADf8QZ4lMJKvUGJQ7.jpg"
+    },
+    {
+        "area": "africa",
+        "questionnum": 6,
+        "imagereference": "\"../../assets/africa6.png\""
+    },
+    {
+        "area": "asia",
+        "questionnum": 2,
+        "imagereference": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSAFmsOUgXZqaMT8ikOwxdqJlmrQwo9mGy6qNmU9DfCmIfkzZa7"
+    },
+    {
+        "area": "asia",
+        "questionnum": 12,
+        "imagereference": "https://picsum.photos/200/300"
+    }
+]

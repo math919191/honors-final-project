@@ -9,7 +9,7 @@ import { ResourcesPage } from "./Pages/ResourcesPage"
 import React, { useState, useEffect } from "react";
 import { SelectAreaPage } from "./Pages/Map/SelectAreaPage"
 
-import realQuestions from './QuestionsFromGoogleSheets.json';
+import realQuestions from './assets/QuestionsFromGoogleSheets.json';
 
 import './App.css'
 
