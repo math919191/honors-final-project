@@ -98,4 +98,19 @@ body{
 
 
 
-/* ----------RESULTS CSS------------ */
+/* ----------Answers Page CSS------------ */
+
+.answersbottom {
+    padding: 20px;
+    border: solid black 2px;
+    background-color: #f6f0e3;
+    margin-left: 30%;
+    margin-right: 30%;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+.buttonspace {
+    margin-right: 30px;
+}
