@@ -9,14 +9,6 @@ function Question(props){
 
     const [picRef, setPicRef] = useState("")
 
-    useEffect(() => {
-
-        if (props.hasPicture){
-            let ref = getPictureRef();
-            setPicRef(ref)
-        }
-                
-    }, [])
 
     function updateSelectedAnswer(answer){
         setSelectedAnswer(answer)
@@ -24,7 +16,6 @@ function Question(props){
     }
 
     function getPictureRef(){
-        
         let currArea =  props.currArea.toLowerCase();
         let currNum = props.questionNumber + 1;
         
@@ -32,14 +23,17 @@ function Question(props){
             return (require("../../assets/africa6.png"))
         }
 
-        for (let i = 0; imageRef.length; i++){
-            const imageArea = imageRef[i].area;
-            const imageNum = imageRef[i].questionnum;
+        for (const element of imageRef){
+            let imageArea = element.area;
+            let imageNum = element.questionnum;
+            // if ('area' in imageRef[i] && 'questionnum' in imageRef[i]){
+                // imageArea = imageRef[i].area;
+                // imageNum = imageRef[i].questionnum;    
+            // } 
 
             if (imageArea == currArea && currNum == imageNum){
-                console.log("returning" + imageRef[i].imagereference);
-
-                return imageRef[i].imagereference;
+                console.log("returning" + element.imagereference);
+                return element.imagereference;
             }
 
         }
