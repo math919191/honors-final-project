@@ -21,7 +21,7 @@ export function PreQuizPage(props){
     return (
 
         <div class="filler">
-            <h1 class="resulttitle">Post Quiz Questions</h1>
+            <h1 class="resulttitle">Pre Quiz Questions</h1>
             <div class="prequiz">
                 {questions.map( (element) => (
                     getQuestionRender(element)
