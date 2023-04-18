@@ -16,7 +16,7 @@
     margin-left: 30px;
     margin-right: 30px;
     padding-right: 50px;
-    color: #606c38;
+    color: #4b3929;
     font-size: 12pt;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -37,11 +37,11 @@ img {
 
 .maintitle {
     text-align: center;
-    color: #91ba22;
+    color: #5e1a1f;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60pt;
     font-weight: bold;
-    text-decoration: underline;
+    text-decoration: underline dotted rgb(134, 108, 60);
 }
 
 .centerbutton {
@@ -51,8 +51,9 @@ img {
 }
 
 body{
-    background-color: #e5e5f7;
-    background-image:  linear-gradient(135deg, #5e1a1f 25%, transparent 25%), linear-gradient(225deg, #80554a 25%, transparent 25%), linear-gradient(45deg, #5e1a1f  25%, transparent 25%), linear-gradient(315deg, #e26d5c 25%, #e1d6be 25%);
+    background: linear-gradient(90deg, transparent 50%, #a78c70 50%),linear-gradient(to bottom, transparent 50%, #e1d6be 50%);
+        background-size: 5em 5em;
+        background-color: #ffffff;
     background-position:  40px 0, 40px 0, 0 0, 0 0;
     background-size: 80px 80px;
     background-repeat: repeat;
@@ -102,15 +103,26 @@ body{
 
 .answersbottom {
     padding: 20px;
-    border: solid black 2px;
-    background-color: #f6f0e3;
-    margin-left: 30%;
     margin-right: 30%;
-    align-items: center;
-    vertical-align: middle;
-    justify-content: center;
+    margin-left: 30%;
 }
 
 .buttonspace {
-    margin-right: 30px;
+    margin-right: 20%;
+    margin-left: 10%;
 }
+
+/* ----------Pre-Quiz Page CSS------------ */
+
+.prequiz {
+    margin: 5px;
+}
+
+.prequizquestion {
+    color:#2b1400;
+    font-size: medium;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-top: 20px;
+    font-weight: 500;
+  }

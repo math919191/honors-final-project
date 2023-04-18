@@ -1,4 +1,5 @@
-import questions from "../assets/prepostquizquestions.json"
+import questions from "../assets/prepostquizquestions.json";
+import Button from 'react-bootstrap/Button';
 
 
 export function PostQuizPage(props){
@@ -8,7 +9,7 @@ export function PostQuizPage(props){
         if (question.questiontype.toLowerCase() == "post"){
             return (
                 <>
-                    <p>{question.question}</p>
+                    <p class="prequizquestion">{question.question}</p>
                     <textarea id="answer" name="answer" rows="4" cols="50">
                     </textarea>
                 </>
@@ -20,12 +21,14 @@ export function PostQuizPage(props){
     return (
 
         <div class="filler">
-            <h1>Post Quiz Questions</h1>
-            {questions.map( (element) => (
-                getQuestionRender(element)
-            ))}
+            <h1 class="resulttitle">Post Quiz Questions</h1>
+            <div class="prequiz">
+                {questions.map( (element) => (
+                    getQuestionRender(element)
+                ))}
+            </div>
             <br/>
-            <button onClick={() => props.nextPageFunction()}>Click here to see how you did</button>
+            <Button onClick={() => props.nextPageFunction()}>Click here to see how you did</Button>
 
         </div>
     )

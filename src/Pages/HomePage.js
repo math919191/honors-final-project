@@ -9,10 +9,13 @@ export function HomePage(props){
             <div class="maindiv">
             <h1 class="maintitle">World Wide Wisdom!</h1>
             <div class="flex">
-                <p class="indiv">Welcome to World Wide Wisdom!
-                    Are you ready to prove how much you
-                    know about cultures around the world?
-                    you think you know and how much you actually do!
+                <p class="indiv">Get ready to test your knowledge and challenge your preconceptions with our trivia website! <br/><br/>
+
+Our platform is dedicated to exploring the fascinating world of cultures and stereotypes through fun and engaging quizzes.
+
+<br/><br/>But we don't just want to test your knowledge – we want to help you learn something new and exciting along the way. So whether you're a seasoned globetrotter or a curious newbie, our trivia website is the perfect place to expand your cultural horizons.
+
+<br/><br/>So what are you waiting for? Grab a friend or two, pour yourself a drink, and let's get quizzing!
                     </p>
 
                     <Carousel fade>
