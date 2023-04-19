@@ -1,14 +1,18 @@
 [
     {
-        "question": "How often do you watch the news?",
+        "question": "How often do you consume the news? What platforms do you use to do so?",
         "questiontype": "Pre"
     },
     {
-        "question": "How confident do you feel in your knowledge about geography?",
+        "question": "How confident do you feel in your knowledge of geography?",
         "questiontype": "Pre"
     },
     {
-        "question": "Have you been able to travel to different places in your life? If so how often?",
+        "question": "How confident do you feel in your knowledge of other cultures?",
+        "questiontype": "Pre"
+    },
+    {
+        "question": "Do you travel outside of your state? Country? How often and where to?",
         "questiontype": "Pre"
     },
     {
@@ -16,23 +20,19 @@
         "questiontype": "Pre"
     },
     {
-        "question": "How important is international news, relations, and knowledge to you?",
+        "question": "How important is it to be aware of international news? International relations?",
         "questiontype": "Pre"
     },
     {
-        "question": "Has your confidence in your geography knowledge changed? Please indicate",
+        "question": "Has your confidence in your geographical knowledge changed? How so?",
         "questiontype": "Post"
     },
     {
-        "question": "Which of the following topics do you feel like you need to improve your knowledge in?",
+        "question": "Has your confidence in your cultural knowledge changed? How so?",
         "questiontype": "Post"
     },
     {
-        "question": "Do you feel like stereotypes or misinformation influenced the answers you gave on the quiz? If so please elaborate",
-        "questiontype": "Post"
-    },
-    {
-        "question": "Did you find the questions interesting? ",
+        "question": "What, if any, topics or geographical regions do you feel like you need to improve your knowledge in?",
         "questiontype": "Post"
     },
     {
@@ -40,7 +40,11 @@
         "questiontype": "Post"
     },
     {
-        "question": "If you were to interact with someone from a different country than you, would it be hard for you to connect with them?",
+        "question": "Do you think that misinformation and stereotypes have influenced the way you see certain countries/areas in the world?",
+        "questiontype": "Post"
+    },
+    {
+        "question": "Did you find the questions interesting?",
         "questiontype": "Post"
     }
 ]

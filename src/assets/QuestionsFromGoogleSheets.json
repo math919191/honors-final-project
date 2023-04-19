@@ -3,9 +3,11 @@
         {
             "questionnumber": 1,
             "area": "North America",
-            "question": "What percentage of Canadian residents speak French?",
+            "question": "What percentage of Canadian residents primarily speak French?",
             "answers": "47%;23%;70%;19%",
-            "correctAnswer": 2
+            "correctAnswer": 2,
+            "explanation": "According to the Canadian government's website, French is the first official language spoken by about 23% of Canadian citizens.",
+            "source": ""
         },
         {
             "questionnumber": 2,
@@ -13,7 +15,8 @@
             "question": "Canada’s top export to the US is maple syrup.",
             "answers": "True;False",
             "correctAnswer": 2,
-            "explanation": "Canada’s top export to the US is crude petroleum (followed by cars and refined petroleum)."
+            "explanation": "Canada’s top export to the US is crude petroleum (followed by cars and refined petroleum).",
+            "source": "https://www.cer-rec.gc.ca/en/data-analysis/energy-commodities/crude-oil-petroleum-products/report/canadian-crude-oil-exports-30-year-review/index.html"
         },
         {
             "questionnumber": 3,
@@ -27,7 +30,7 @@
         {
             "questionnumber": 4,
             "area": "North America",
-            "question": "Roughly three in ten American adults are religiously unaffiliated (T/F).",
+            "question": "Roughly three in ten American adults are religiously unaffiliated.",
             "answers": "True;False",
             "correctAnswer": 1,
             "explanation": "In 2021, the Pew Research Center found that roughly 30% of American adults identify as religiously unaffiliated.",
@@ -37,23 +40,28 @@
             "questionnumber": 5,
             "area": "North America",
             "question": "Which country consumes more soft-drink products?",
-            "answers": "United States;Mexio;Canada;Russia",
-            "correctAnswer": 2
+            "answers": "United States;Mexico;Canada;Russia",
+            "correctAnswer": 1,
+            "explanation": "While in the past Mexico has ranked above the US, Americans consume the most soda compared to other North American companies, and rank 3rd worldwide (Inda is first and China is second).",
+            "source": "https://worldpopulationreview.com/country-rankings/soda-consumption-by-country"
         },
         {
             "questionnumber": 6,
             "area": "North America",
             "question": "What is the national animal of Mexico?",
-            "answers": "Axolotl;Jaguar;Mexican Rattlesnake;Eagle",
+            "answers": "Axolotl;Jaguar;Mexican Rattlesnake;Golden Eagle",
             "correctAnswer": 4,
-            "explanation": "The official national animal of Mexico is the golden eagle! We think the axolotl, however, deserves a shoutout as the country's national amphibian."
+            "explanation": "The official national animal of Mexico is the golden eagle! We think the axolotl, however, deserves a shoutout as the country's national amphibian.",
+            "source": "https://animalcorner.org/blog/national-animal-of-mexico/"
         },
         {
             "questionnumber": 7,
             "area": "North America",
             "question": "Immigrants accounted for how much of the US population in 2021?",
             "answers": "11.9%;12.4%;13.6%;14.3%",
-            "correctAnswer": 3
+            "correctAnswer": 3,
+            "explanation": "In 2021, 13.6% of the US population were immigrants. Mexicans are the largest group of U.S. immigrants, comprising 24 percent of the total immigrant population in 2021, which is a decline from 30 percent in 2000. India and China (including Hong Kong and Macao but not Taiwan) were the next two largest sending countries, accounting for approximately 6 and 5 percent, respectively, of the overall foreign-born population.",
+            "source": "https://www.migrationpolicy.org/article/frequently-requested-statistics-immigrants-and-immigration-united-states"
         },
         {
             "questionnumber": 8,
@@ -72,6 +80,15 @@
             "correctAnswer": 3,
             "explanation": "Alaska is approximately 55 miles away from Washington State, 1880 miles away from the Canadian province of Manitoba, and a whopping 4,244 miles away from Washington, DC. Therefore, with Russian island Big Diomede just about 3 miles away from Alaskan island Little Diomede, Alaska is closer to Russia than the rest of its fellow states.",
             "source": "https://www.getawaycouple.com/how-far-is-russia-from-alaska/"
+        },
+        {
+            "questionnumber": 10,
+            "area": "North America",
+            "question": "Canada is the third largest country in the world (geographically, not population-wise).",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "Canada is actually the second largest country in the world, following only Russia. China comes in third place, and the United States is fourth.",
+            "source": "https://www.worldometers.info/geography/largest-countries-in-the-world/"
         }
     ],
     "Utah": [
@@ -90,7 +107,7 @@
             "question": "What percentage of Utah is Mormon?",
             "answers": "49%;55%;66%;78%",
             "correctAnswer": 3,
-            "explanation": "According to the Church's newsroom, there are 2,161,526 members living in Utah, who make up just over 66% of Utah's population.",
+            "explanation": "According to the Church's newsroom, there are 2,161,526 members living in Utah, who make up just over 66% of Utah's population. ",
             "source": "https://newsroom.churchofjesuschrist.org/facts-and-statistics/state/utah"
         },
         {
@@ -117,7 +134,7 @@
             "question": "Salt Lake City is home to the leading manufacturer of which of the following products?",
             "answers": "Rubber chickens;Jell-O mix;Aluminium cans;Wedding dresses",
             "correctAnswer": 1,
-            "explanation": "Despite the many weddings and the prevalence of food storage in Utah, neither wedding dresses nor aluminium cans is the correct answer to this question; and, even though Utah is practically synonymous with jello salads, the mix itself isn't made here, either. However, Salt Lake City is home to Loftus Novelty, the leading manufacturer of rubber chickens in the US. How fun is that?!",
+            "explanation": "Despite the many weddings and the prevalence of food storage in Utah, neither wedding dresses nor aluminium cans is the correct answer to this question, and, even though Utah is practically synonymous with jello salads, the mix itself isn't made here, either. However, Salt Lake City is home to Loftus Novelty, the leading manufacturer of rubber chickens in the US. How fun is that?! We hid one in Professor Parkin's bag.",
             "source": "https://www.loftus.com/pages/about-us"
         },
         {
@@ -142,10 +159,10 @@
             "questionnumber": 8,
             "area": "Utah",
             "question": "How many operating temples are currently open in Utah?",
-            "answers": "10;14;17;21",
-            "correctAnswer": 3,
-            "explanation": "As of October 2022, there are 17 operating temples in Utah, with 11 others that have been either announced or are under construction.",
-            "source": "https://en.wikipedia.org/wiki/List_of_temples_of_the_Church_of_Jesus_Christ_of_Latter-day_Saints"
+            "answers": "10;14;17;28",
+            "correctAnswer": 4,
+            "explanation": "As of April 2023, there are 14 operating temples in Utah, with 14 others that have been either announced or are under construction/renovation.",
+            "source": "https://www.thechurchnews.com/temples/2023/4/1/23663825/april-2023-lds-church-300-temples-6-maps#&gid=1&pid=1"
         },
         {
             "questionnumber": 9,
@@ -153,8 +170,26 @@
             "question": "Throwing snowballs is a fineable offense in Provo, Utah.",
             "answers": "True;False",
             "correctAnswer": 1,
-            "explanation": "Whoever wrote this law never won a snowball fight when they were a kid and carried that (ice) chip on their shoulder for the rest of their life. Provo City Code states that \"Every person who shall willfully or carelessly within the limits of this City throw any stone, stick, snowball or other missile whereby any person shall be hit, or any window broken or other property injured or destroyed\" will be guilty of a misdemeanor (9.14.100). I don't know if the $50 fine applies to the whole altercation or to each snowball individually, but if the latter is true, I owe the city of Provo about as much money as I owe BYU. But, unlike a certain legislator, I won. So worth it.",
+            "explanation": "Whoever wrote this law never won a snowball fight when they were a kid and carried that (ice) chip on their shoulder for the rest of their life. Provo City Code states that \"Every person who shall willfully or carelessly within the limits of this City throw any stone, stick, snowball or other missile whereby any person shall be hit, or any window broken or other property injured or destroyed\" will be guilty of a misdemeanor (9.14.100). I don't know if the $50 fine applies to the whole altercation or to each snowball individually, but if the latter is true, I owe the city of Provo about as much money as I owe BYU. But, unlike a certain legislator, I won.",
             "source": "https://provo.municipal.codes/Code/9.14.080"
+        },
+        {
+            "questionnumber": 10,
+            "area": "Utah",
+            "question": "Utah had the highest marriage rates in 2021.",
+            "answers": "True;False",
+            "correctAnswer": 2,
+            "explanation": "This might surprise you, but no. Utah had the 4th highest marriage rate in 2021 with 9.1 marriages per 1000 people. Nevada was 1st with a rate of 26.2 (we see you and your Elvis impersonators, Vegas), Hawaii was 2nd with a rate of 12.8 (we've heard the honeymoon experience package comes with snorkeling and a luau), and Montana came in at 3rd with a rate of 11 (not sure where this came from, but you go, Montana).",
+            "source": "https://www.statista.com/statistics/227305/highest-marriage-rates-by-us-state/"
+        },
+        {
+            "questionnumber": 11,
+            "area": "Utah",
+            "question": "How many LDS missions are there in Utah?",
+            "answers": "8;10;12;14",
+            "correctAnswer": 2,
+            "explanation": "Called to serve, amiright? As of now, there are 10 missions in Utah (plus the MTC just down the road). The missions are as follows: Layton, Ogden, Orem, Provo, Salt Lake City, Salt Lake City West, Salt Lake City South, Salt Lake City Headquarters, and Salt Lake City Temple Square.",
+            "source": "https://en.wikipedia.org/wiki/The_Church_of_Jesus_Christ_of_Latter-day_Saints_in_Utah#Missions"
         }
     ],
     "Africa": [
@@ -165,9 +200,7 @@
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "There are 54 countries, including 6 islands. Africa is the second largest continent in the world. This is a common misconception and piece of misinformation to refer to Africa as a country rather than a continent and to underestimate the amount of countries within this continent.",
-            "source": "https://www.worldometers.info/geography/how-many-countries-in-africa/#:~:text=There%20are%2054%20countries%20in,the%20United%20Nations%20official%20statistics).",
-            "picture": "has a picture"
-
+            "source": "https://www.worldometers.info/geography/how-many-countries-in-africa/#:~:text=There%20are%2054%20countries%20in,the%20United%20Nations%20official%20statistics)."
         },
         {
             "questionnumber": 2,
@@ -358,7 +391,7 @@
             "area": "Oceania",
             "question": "What is the name of the continent: Oceania or Australia?",
             "answers": "Oceania;Australia;Both",
-            "correctAnswer": 3,
+            "correctAnswer": 2,
             "explanation": "This question is tricky. Technically, both are correct. In many continents, the educational system says that Oceania is the continent; however, in the US, it is a geographical region and thus, Australia is classified as the continent.",
             "source": "https://education.nationalgeographic.org/resource/oceania-physical-geography/"
         },
@@ -374,10 +407,10 @@
         {
             "questionnumber": 3,
             "area": "Oceania",
-            "question": "The most lethal, deadly creatures on Earth are found in Australia.",
+            "question": "Some of the most lethal, deadly creatures on Earth are found in Australia.",
             "answers": "True;False",
             "correctAnswer": 1,
-            "explanation": "Yes, there are many deadly animals in Australia. That does not mean you will die if you go there! You can be one of the 1-2 people that are eaten by a crocodile in Australia.",
+            "explanation": "Yes, there are many deadly animals in Australia, but that doesn't mean you're bound to die if you go there! But if you must, you can be unique by being one of the 1-2 people that are eaten by a crocodile in Australia.",
             "source": "https://theplanetd.com/gday-some-aussie-stereotypes/"
         },
         {
@@ -419,7 +452,7 @@
         {
             "questionnumber": 8,
             "area": "Oceania",
-            "question": "Cannibalism is commonly practiced in Papua New Guinea.",
+            "question": "Cannibalism is currently practiced in Papua New Guinea.",
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "While it happened in the past, it is not the case these days. Yes, there are some native tribes that may do this; however, that is not the case for the majority of the country.",
@@ -467,7 +500,7 @@
             "question": "What percentage of Tonga’s islands is inhabited?",
             "answers": "21%;42%;68%;100%",
             "correctAnswer": 1,
-            "explanation": "Only 36 of Tonga's 169 islands have .",
+            "explanation": "Only 36 of Tonga's 169 islands have people living on them!",
             "source": "https://en.wikipedia.org/wiki/Geography_of_Tonga"
         },
         {
@@ -493,7 +526,7 @@
         {
             "questionnumber": 1,
             "area": "Central/South America",
-            "question": "Central Americans are all mestizos or indigenous people",
+            "question": "Central Americans are all mestizos or indigenous people.",
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "While mestizos and indigenous people do make up a significant portion of the population in many Central American countries, there are also communities of Afro-Caribbean, European, and Asian descent.",
@@ -502,7 +535,7 @@
         {
             "questionnumber": 2,
             "area": "Central/South America",
-            "question": "English is in the top 3 most spoken languages",
+            "question": "English is one of the top 3 most spoken languages in South America.",
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "Barely 1% of the South American population speaks English.  Quechua, a native language, is the third most spoken language with over 8 million speakers.",
@@ -520,7 +553,7 @@
         {
             "questionnumber": 4,
             "area": "Central/South America",
-            "question": "Mexico is not part of Central America",
+            "question": "Mexico is not part of Central America.",
             "answers": "True;False",
             "correctAnswer": 1,
             "explanation": "Many tend to lump Mexico in together with South and Central American states and refer to the region as “Latin America.”",
@@ -529,7 +562,7 @@
         {
             "questionnumber": 5,
             "area": "Central/South America",
-            "question": " Houses in South America have dirt floors",
+            "question": "All houses in South America have dirt floors.",
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "This is a common misconception due to the popularity of images that show the poorer areas in South America. While this is completely true for many cases, it is not for most of them."
@@ -537,7 +570,7 @@
         {
             "questionnumber": 6,
             "area": "Central/South America",
-            "question": "Water is polluted in most areas of Central America",
+            "question": "Water is polluted in most areas of Central America.",
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "Maybe an easy one, but I've heard so many times. Like every other country, there are areas where water is polluted or contains parasites."
@@ -546,7 +579,7 @@
             "questionnumber": 7,
             "area": "Central/South America",
             "question": "What percentage of South Americans have access to internet?",
-            "answers": "68;98;20;81",
+            "answers": "68%;98%;20%;81%",
             "correctAnswer": 1,
             "explanation": "People tend to overestimate the percentage of South Americans with access to the internet. If you underestimate it, you should know that South America is not entirely what the news paint it to be. There is a lot of technological development in many areas, but it does have a hundreds of millions of people without access to it.",
             "source": "https://www.iadb.org/en/news/least-77-million-rural-inhabitants-have-no-access-high-quality-internet-services"
@@ -554,7 +587,7 @@
         {
             "questionnumber": 8,
             "area": "Central/South America",
-            "question": "How many countries do you think are in Central America?",
+            "question": "How many countries are in Central America?",
             "answers": "5;10;7;9",
             "correctAnswer": 3,
             "explanation": "There are 7 countries there: Guatemala, Belize, Honduras, El Salvador, Nicaragua, Costa Rica and Panama. ",
@@ -572,7 +605,7 @@
         {
             "questionnumber": 10,
             "area": "Central/South America",
-            "question": "All Latin Americans Have Homogenous Origins",
+            "question": "Most Latin Americans Have Homogenous Origins",
             "answers": "True;False",
             "correctAnswer": 2,
             "explanation": "People tend to categorize South and Central Americans into one group: Mexicans. While we share some traits, the histories are different from each country, and thus, the background and experiences.",
@@ -592,6 +625,7 @@
             "question": "Is this Mt. Everest?",
             "answers": "ABSOLUTELY, look at all the clouds!!; Nah.",
             "correctAnswer": 2,
+            "explanation": "Nope! This is in Alaska.",
             "picture": "awesome picture loading..."
         },
         {
@@ -599,7 +633,8 @@
             "area": "Asia",
             "question": "Which is the most ethnically diverse country in Asia?",
             "answers": "Indonesia;India;Nepal;China",
-            "correctAnswer": 1
+            "correctAnswer": 1,
+            "explanation": "Indonesia is the most ethnically  diverse country with a whopping 1,300 ethnic groups."
         },
         {
             "questionnumber": 3,
@@ -607,38 +642,44 @@
             "question": "Out of 2,300 languages in Asia, Mandarin is the most widely spoken language. What percentage of people in Asia speak Mandarin?",
             "answers": "45%;51%;63%;79%",
             "correctAnswer": 2,
+            "explanation": "Just over half of all people in Asia speak Mandarin -- considering all the options, that's pretty impressive!",
             "source": "https://social-policy.org.uk/spa-blog/ethnicity-and-inequality-in-southeast-asia/#:~:text=In%20our%20session%2C%20four%20participants,(around%201%2C300%20ethnic%20groups)"
         },
         {
             "questionnumber": 4,
             "area": "Asia",
             "question": "Unknown sources claim that America is the only country to be silly and have paper bills. As of 2023, GDP wise, which is the richest country in Asia?",
-            "answers": "India;Japan;China;Indonesia",
-            "correctAnswer": 4,
-            "source": "https://www.jumpspeak.com/blog/whats-the-most-spoken-language-in-asia-you-may-know-the-answer"
+            "answers": "China;India;Qatar;Singapore",
+            "correctAnswer": 3,
+            "explanation": "Qatar is the richest country according to 2023 GDP of $89,416 per capita.",
+            "source": "populationu.com/gen/richest-asian-countries#:~:text=The%20Qatar%20is%20the%20wealthiest,with%20per%20capita%20of%20%2458%2C273."
         },
         {
             "questionnumber": 5,
             "area": "Asia",
             "question": "How many countries out of 48 Asian countries recognize English as their official language?",
-            "answers": "None of the;9;15;5",
+            "answers": "0;9;15;5",
             "correctAnswer": 4,
-            "explanation": "The countries are: Nepal, India, Philippines, Singapore,  and ",
+            "explanation": "The countries are: Nepal, India, Philippines, Singapore, and ",
             "source": "https://www.worldatlas.com/articles/english-speaking-countries-in-asia.html#:~:text=English%20in%20Asia&text=India%2C%20Nepal%2C%20Pakistan%2C%20Philippines,English%20in%20an%20official%20capacity"
         },
         {
             "questionnumber": 6,
             "area": "Asia",
-            "question": "Where was fortune cookies invented?",
-            "answers": "Beijing, China;Thailand;California, US;Japan",
-            "correctAnswer": 4
+            "question": "Who invented the first fortune cookie?",
+            "answers": "A californan man;A chinese man;Jeff  Bezos;A japanese man",
+            "correctAnswer": 4,
+            "explanation": "The exact origin of fortune cookies is unclear, though various immigrant groups in California claim to have popularized them in the early 20th century. They most likely originated from cookies made by Japanese immigrants to the United States in the late 19th or early 20th century.",
+            "source": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/how-do-fortunes-get-inside-fortune-cookies/#:~:text=The%20invention%20of%20fortune%20cookies,in%201914%20in%20San%20Francisco."
         },
         {
             "questionnumber": 7,
             "area": "Asia",
             "question": "What percent of world's rice is consumed in Asia?",
             "answers": "60%;50%;90%;73%",
-            "correctAnswer": 3
+            "correctAnswer": 3,
+            "explanation": " Around 90% of the world's rice is consumed in Asia—60% of it in China, India and Indonesia alone. In every large country except Pakistan, Asians eat more rice than the global average.M",
+            "source": "https://www.economist.com/graphic-detail/2017/03/13/asian-countries-are-eating-more-wheat"
         },
         {
             "questionnumber": 8,
@@ -646,6 +687,7 @@
             "question": "Which country has the highest death rate due to car accidents?",
             "answers": "Dominican Republic;Thailand;Venezuela;Iran",
             "correctAnswer": 1,
+            "explanation": "Dominican Republic have 41.7 driving deaths per 100,000 people per year. Over a lifetime of 70 years this means you have a 1:480  chance of dying in a car crash!",
             "source": "https://www.driversdomainuk.com/the-worlds-worst-drivers-by-country/"
         },
         {
@@ -654,6 +696,7 @@
             "question": "Which country has the most booming martial arts industry?",
             "answers": "China;USA;Japan;Nepal",
             "correctAnswer": 2,
+            "explanation": "There were 39,310 martial arts businesses in the United States in 2020, with 50,490 businesses projected by the end of 2022.",
             "source": "https://gymdesk.com/blog/martial-arts-industry-statistics/"
         },
         {
@@ -661,6 +704,8 @@
             "area": "Asia",
             "question": "Which type of countries given below have the lowest crime rate?",
             "answers": "Predominantly Muslim;Predominantly Buddhist;Predominantly Christian (all denominations);Predominantly Atheist",
+            "correctAnswer": 4,
+            "explanation": "According to  this study, predominantly atheist countries showed to have lower crime rates than other countries. This is just one statististic and it's only correlation (a strong one). This does not conlcude causation.",
             "source": "https://www.nairaland.com/121066/predominantly-atheist-countries-lowest-crime"
         },
         {
@@ -681,7 +726,7 @@
         {
             "questionnumber": 13,
             "area": "Asia",
-            "question": "An Indian also holds the title of the world's longest moustache. How long was it?\n",
+            "question": "An Indian man holds the title of the world's longest moustache. How long was it?\n",
             "answers": "10 ft;12.5 ft;8 ft;15 ft",
             "correctAnswer": 2,
             "explanation": "Ram Singh Chauhan holds the title for the longest moustache in the world at 12.5 ft."

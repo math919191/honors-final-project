@@ -7,7 +7,7 @@
     {
         "area": "africa",
         "questionnum": 6,
-        "imagereference": "\"../../assets/africa6.png\""
+        "imagereference": "\"./assets/africa6.png\""
     },
     {
         "area": "asia",
@@ -17,6 +17,6 @@
     {
         "area": "asia",
         "questionnum": 13,
-        "imagereference": "https://picsum.photos/200/300"
+        "imagereference": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pokhara2.jpg"
     }
 ]
