@@ -29,7 +29,8 @@
     margin-top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 35pt;
-    text-decoration: underline dotted rgb(165, 103, 40);
+    text-decoration: underline dotted #5e1a1f;
+    color:#3e0004;
 }
 
 
